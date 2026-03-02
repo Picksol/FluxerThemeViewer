@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluxer Theme Browser</title>
+<link rel="stylesheet" href="../css/theme.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Fluxer Themes</h1>
+    <p>Click any theme to <strong>copy the CSS</strong> straight to your clipboard, then paste into <strong>Settings → Look &amp; Feel → Custom Theme Tokens → Custom CSS Overrides</strong>.</p>
+  </div>
+  <div class="stats">
+    <div class="stat">
+      <div class="num" id="count">—</div>
+      <div class="label">themes</div>
+    </div>
+  </div>
+</header>
+
+<!-- Loading indicator (shown until themes.json is fetched) -->
+<div id="loading-state">
+  <div class="spinner"></div>
+  Loading themes…
+</div>
+
+<!-- Error state (shown if fetch fails) -->
+<div id="error-state"></div>
+
+<!-- Filter bar (hidden until loaded, populated dynamically from tags in themes.json) -->
+<div class="filter-bar">
+  <span class="filter-label">Filter</span>
+  <!-- buttons injected by script.js -->
+</div>
+
+<div class="grid-wrapper">
+  <div class="grid" id="grid"></div>
+</div>
+
+<div id="toast"></div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

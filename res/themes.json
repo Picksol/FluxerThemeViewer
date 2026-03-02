@@ -1,0 +1,661 @@
+[
+  {
+    "name": "Catppuccin Mocha",
+    "tags": [
+      "dark",
+      "catppuccin"
+    ],
+    "bg1": "#1e1e2e",
+    "bg2": "#181825",
+    "bg3": "#11111b",
+    "sidebar": "#181825",
+    "accent": "#cba6f7",
+    "accent2": "#b4befe",
+    "text": "#cdd6f4",
+    "textMid": "#bac2de",
+    "textDim": "#6c7086",
+    "online": "#a6e3a1",
+    "input": "#313244",
+    "border": "#45475a",
+    "avatarColors": [
+      "#cba6f7",
+      "#f38ba8",
+      "#a6e3a1"
+    ],
+    "css": ":root { --font-sans: 'Inter', system-ui, -apple-system, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', 'Fira Code', monospace; }\n:root { --background-primary: #1e1e2e; }\n:root { --background-secondary: #181825; }\n:root { --background-secondary-alt: #181825; }\n:root { --background-secondary-lighter: #1e1e2e; }\n:root { --background-tertiary: #11111b; }\n:root { --background-textarea: #1e1e2e; }\n:root { --background-header-primary: #1e1e2e; }\n:root { --background-header-primary-hover: #313244; }\n:root { --background-header-secondary: #313244; }\n:root { --channel-header-background: #1e1e2e; }\n:root { --background-modifier-hover: #313244; }\n:root { --background-modifier-selected: #45475a; }\n:root { --background-modifier-accent: #45475a; }\n:root { --background-modifier-accent-focus: #6c7086; }\n:root { --guild-list-foreground: #cdd6f4; }\n:root { --brand-primary: #cba6f7; }\n:root { --brand-secondary: #b4befe; }\n:root { --brand-primary-light: #d9b8ff; }\n:root { --brand-primary-fill: #1e1e2e; }\n:root { --status-online: #a6e3a1; }\n:root { --status-idle: #f9e2af; }\n:root { --status-dnd: #f38ba8; }\n:root { --status-offline: #6c7086; }\n:root { --status-danger: #f38ba8; }\n:root { --text-primary: #cdd6f4; }\n:root { --text-secondary: #bac2de; }\n:root { --text-tertiary: #a6adc8; }\n:root { --text-primary-muted: #6c7086; }\n:root { --text-chat: #cdd6f4; }\n:root { --text-chat-muted: #a6adc8; }\n:root { --text-link: #89b4fa; }\n:root { --text-on-brand-primary: #1e1e2e; }\n:root { --text-tertiary-muted: #6c7086; }\n:root { --text-tertiary-secondary: #7f849c; }\n:root { --border-color: #45475a; }\n:root { --border-color-hover: #6c7086; }\n:root { --border-color-focus: #cba6f7; }\n:root { --accent-primary: #cba6f7; }\n:root { --accent-success: #a6e3a1; }\n:root { --accent-warning: #f9e2af; }\n:root { --accent-danger: #f38ba8; }\n:root { --accent-info: #89b4fa; }\n:root { --accent-purple: #cba6f7; }\n:root { --alert-note-color: #89b4fa; }\n:root { --alert-tip-color: #a6e3a1; }\n:root { --alert-important-color: #cba6f7; }\n:root { --alert-warning-color: #f9e2af; }\n:root { --alert-caution-color: #f38ba8; }\n:root { --markup-mention-text: #cba6f7; }\n:root { --markup-mention-fill: #302d41; }\n:root { --markup-interactive-hover-text: #d9b8ff; }\n:root { --markup-interactive-hover-fill: #313244; }\n:root { --button-primary-fill: #cba6f7; }\n:root { --button-primary-active-fill: #b4befe; }\n:root { --button-primary-text: #1e1e2e; }\n:root { --button-secondary-fill: #313244; }\n:root { --button-secondary-active-fill: #45475a; }\n:root { --button-secondary-text: #cdd6f4; }\n:root { --button-danger-fill: #f38ba8; }\n:root { --button-danger-active-fill: #eb6f92; }\n:root { --button-danger-text: #1e1e2e; }\n:root { --button-danger-outline-border: #f38ba8; }\n:root { --button-danger-outline-text: #f38ba8; }\n:root { --button-danger-outline-active-fill: #f38ba8; }\n:root { --button-danger-outline-active-border: #eb6f92; }\n:root { --button-ghost-text: #cdd6f4; }\n:root { --button-inverted-fill: #cdd6f4; }\n:root { --button-inverted-text: #1e1e2e; }\n:root { --button-outline-border: #45475a; }\n:root { --button-outline-text: #cdd6f4; }\n:root { --button-outline-active-fill: #313244; }\n:root { --button-outline-active-border: #6c7086; }\n:root { --bg-primary: #1e1e2e; }\n:root { --bg-secondary: #181825; }\n:root { --bg-tertiary: #313244; }\n:root { --bg-hover: #313244; }\n:root { --bg-active: #45475a; }\n:root { --bg-code: #313244; }\n:root { --bg-code-block: #181825; }\n:root { --bg-blockquote: #313244; }\n:root { --bg-table-header: #313244; }\n:root { --bg-table-row-odd: #1e1e2e; }\n:root { --bg-table-row-even: #27283a; }"
+  },
+  {
+    "name": "Catppuccin Latte",
+    "tags": [
+      "light",
+      "catppuccin",
+      "cute"
+    ],
+    "bg1": "#eff1f5",
+    "bg2": "#e6e9ef",
+    "bg3": "#dce0e8",
+    "sidebar": "#e6e9ef",
+    "accent": "#8839ef",
+    "accent2": "#7287fd",
+    "text": "#4c4f69",
+    "textMid": "#5c5f77",
+    "textDim": "#9ca0b0",
+    "online": "#40a02b",
+    "input": "#ccd0da",
+    "border": "#bcc0cc",
+    "avatarColors": [
+      "#8839ef",
+      "#d20f39",
+      "#40a02b"
+    ],
+    "css": ":root { --font-sans: 'Inter', system-ui, -apple-system, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', 'Fira Code', monospace; }\n:root { --background-primary: #eff1f5; }\n:root { --background-secondary: #e6e9ef; }\n:root { --background-secondary-alt: #e6e9ef; }\n:root { --background-secondary-lighter: #eff1f5; }\n:root { --background-tertiary: #dce0e8; }\n:root { --background-textarea: #eff1f5; }\n:root { --background-header-primary: #eff1f5; }\n:root { --background-header-primary-hover: #ccd0da; }\n:root { --background-header-secondary: #ccd0da; }\n:root { --channel-header-background: #eff1f5; }\n:root { --background-modifier-hover: #ccd0da; }\n:root { --background-modifier-selected: #bcc0cc; }\n:root { --background-modifier-accent: #acb0be; }\n:root { --background-modifier-accent-focus: #9ca0b0; }\n:root { --guild-list-foreground: #4c4f69; }\n:root { --brand-primary: #8839ef; }\n:root { --brand-secondary: #7287fd; }\n:root { --brand-primary-light: #a259f7; }\n:root { --brand-primary-fill: #eff1f5; }\n:root { --status-online: #40a02b; }\n:root { --status-idle: #df8e1d; }\n:root { --status-dnd: #d20f39; }\n:root { --status-offline: #9ca0b0; }\n:root { --status-danger: #d20f39; }\n:root { --text-primary: #4c4f69; }\n:root { --text-secondary: #5c5f77; }\n:root { --text-tertiary: #6c6f85; }\n:root { --text-primary-muted: #9ca0b0; }\n:root { --text-chat: #4c4f69; }\n:root { --text-chat-muted: #7c7f93; }\n:root { --text-link: #1e66f5; }\n:root { --text-on-brand-primary: #eff1f5; }\n:root { --text-tertiary-muted: #9ca0b0; }\n:root { --text-tertiary-secondary: #7c7f93; }\n:root { --border-color: #bcc0cc; }\n:root { --border-color-hover: #9ca0b0; }\n:root { --border-color-focus: #8839ef; }\n:root { --accent-primary: #8839ef; }\n:root { --accent-success: #40a02b; }\n:root { --accent-warning: #df8e1d; }\n:root { --accent-danger: #d20f39; }\n:root { --accent-info: #1e66f5; }\n:root { --accent-purple: #8839ef; }\n:root { --button-primary-fill: #8839ef; }\n:root { --button-primary-active-fill: #7527e0; }\n:root { --button-primary-text: #eff1f5; }\n:root { --button-secondary-fill: #ccd0da; }\n:root { --button-secondary-active-fill: #bcc0cc; }\n:root { --button-secondary-text: #4c4f69; }\n:root { --button-danger-fill: #d20f39; }\n:root { --button-danger-active-fill: #b50d31; }\n:root { --button-danger-text: #eff1f5; }\n:root { --bg-primary: #eff1f5; }\n:root { --bg-secondary: #e6e9ef; }\n:root { --bg-tertiary: #ccd0da; }\n:root { --bg-hover: #ccd0da; }\n:root { --bg-active: #bcc0cc; }\n:root { --bg-code: #ccd0da; }\n:root { --bg-code-block: #e6e9ef; }\n:root { --bg-blockquote: #ccd0da; }\n:root { --bg-table-header: #ccd0da; }\n:root { --bg-table-row-odd: #eff1f5; }\n:root { --bg-table-row-even: #e6e9ef; }"
+  },
+  {
+    "name": "Verdant",
+    "tags": [
+      "dark",
+      "nature"
+    ],
+    "bg1": "#1a2420",
+    "bg2": "#131c19",
+    "bg3": "#0d1410",
+    "sidebar": "#131c19",
+    "accent": "#6abf8e",
+    "accent2": "#4da674",
+    "text": "#c8dbd2",
+    "textMid": "#9dbfad",
+    "textDim": "#4d6e5c",
+    "online": "#6abf8e",
+    "input": "#243329",
+    "border": "#2e4035",
+    "avatarColors": [
+      "#6abf8e",
+      "#e07a7a",
+      "#7ab5e0"
+    ],
+    "css": ":root { --font-sans: 'Inter', system-ui, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', monospace; }\n:root { --background-primary: #1a2420; }\n:root { --background-secondary: #131c19; }\n:root { --background-secondary-alt: #131c19; }\n:root { --background-secondary-lighter: #1a2420; }\n:root { --background-tertiary: #0d1410; }\n:root { --background-textarea: #1a2420; }\n:root { --background-header-primary: #1a2420; }\n:root { --background-header-primary-hover: #243329; }\n:root { --background-header-secondary: #2e4035; }\n:root { --channel-header-background: #1a2420; }\n:root { --background-modifier-hover: #243329; }\n:root { --background-modifier-selected: #2e4035; }\n:root { --background-modifier-accent: #3a5244; }\n:root { --background-modifier-accent-focus: #4d6e5c; }\n:root { --guild-list-foreground: #c8dbd2; }\n:root { --brand-primary: #6abf8e; }\n:root { --brand-secondary: #4da674; }\n:root { --brand-primary-light: #82d1a3; }\n:root { --brand-primary-fill: #1a2420; }\n:root { --status-online: #6abf8e; }\n:root { --status-idle: #e0c97a; }\n:root { --status-dnd: #e07a7a; }\n:root { --status-offline: #4d6e5c; }\n:root { --status-danger: #e07a7a; }\n:root { --text-primary: #c8dbd2; }\n:root { --text-secondary: #9dbfad; }\n:root { --text-tertiary: #7aa68e; }\n:root { --text-primary-muted: #4d6e5c; }\n:root { --text-chat: #c8dbd2; }\n:root { --text-chat-muted: #7aa68e; }\n:root { --text-link: #82d1a3; }\n:root { --text-on-brand-primary: #0d1410; }\n:root { --border-color: #2e4035; }\n:root { --border-color-hover: #4d6e5c; }\n:root { --border-color-focus: #6abf8e; }\n:root { --accent-primary: #6abf8e; }\n:root { --accent-success: #6abf8e; }\n:root { --accent-warning: #e0c97a; }\n:root { --accent-danger: #e07a7a; }\n:root { --button-primary-fill: #6abf8e; }\n:root { --button-primary-active-fill: #4da674; }\n:root { --button-primary-text: #0d1410; }\n:root { --button-secondary-fill: #2e4035; }\n:root { --button-secondary-active-fill: #3a5244; }\n:root { --button-secondary-text: #c8dbd2; }\n:root { --button-danger-fill: #e07a7a; }\n:root { --button-danger-active-fill: #c96060; }\n:root { --button-danger-text: #0d1410; }\n:root { --bg-primary: #1a2420; }\n:root { --bg-secondary: #131c19; }\n:root { --bg-tertiary: #243329; }\n:root { --bg-hover: #243329; }\n:root { --bg-active: #2e4035; }\n:root { --bg-code: #243329; }\n:root { --bg-code-block: #131c19; }\n:root { --bg-blockquote: #243329; }\n:root { --bg-table-header: #2e4035; }\n:root { --bg-table-row-odd: #1a2420; }\n:root { --bg-table-row-even: #1e2b26; }"
+  },
+  {
+    "name": "Nord",
+    "tags": [
+      "dark"
+    ],
+    "bg1": "#2e3440",
+    "bg2": "#242933",
+    "bg3": "#1c2028",
+    "sidebar": "#242933",
+    "accent": "#88c0d0",
+    "accent2": "#81a1c1",
+    "text": "#eceff4",
+    "textMid": "#e5e9f0",
+    "textDim": "#4c566a",
+    "online": "#a3be8c",
+    "input": "#3b4252",
+    "border": "#434c5e",
+    "avatarColors": [
+      "#88c0d0",
+      "#bf616a",
+      "#a3be8c"
+    ],
+    "css": ":root { --font-sans: 'Inter', system-ui, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', monospace; }\n:root { --background-primary: #2e3440; }\n:root { --background-secondary: #242933; }\n:root { --background-secondary-alt: #242933; }\n:root { --background-secondary-lighter: #2e3440; }\n:root { --background-tertiary: #1c2028; }\n:root { --background-textarea: #2e3440; }\n:root { --background-header-primary: #2e3440; }\n:root { --background-header-primary-hover: #3b4252; }\n:root { --background-header-secondary: #434c5e; }\n:root { --channel-header-background: #2e3440; }\n:root { --background-modifier-hover: #3b4252; }\n:root { --background-modifier-selected: #434c5e; }\n:root { --background-modifier-accent: #4c566a; }\n:root { --background-modifier-accent-focus: #616e88; }\n:root { --guild-list-foreground: #eceff4; }\n:root { --brand-primary: #88c0d0; }\n:root { --brand-secondary: #81a1c1; }\n:root { --brand-primary-light: #8fbcbb; }\n:root { --brand-primary-fill: #2e3440; }\n:root { --status-online: #a3be8c; }\n:root { --status-idle: #ebcb8b; }\n:root { --status-dnd: #bf616a; }\n:root { --status-offline: #4c566a; }\n:root { --status-danger: #bf616a; }\n:root { --text-primary: #eceff4; }\n:root { --text-secondary: #e5e9f0; }\n:root { --text-tertiary: #d8dee9; }\n:root { --text-primary-muted: #616e88; }\n:root { --text-chat: #eceff4; }\n:root { --text-chat-muted: #d8dee9; }\n:root { --text-link: #88c0d0; }\n:root { --text-on-brand-primary: #2e3440; }\n:root { --border-color: #434c5e; }\n:root { --border-color-hover: #4c566a; }\n:root { --border-color-focus: #88c0d0; }\n:root { --accent-primary: #88c0d0; }\n:root { --accent-success: #a3be8c; }\n:root { --accent-warning: #ebcb8b; }\n:root { --accent-danger: #bf616a; }\n:root { --accent-info: #81a1c1; }\n:root { --accent-purple: #b48ead; }\n:root { --button-primary-fill: #88c0d0; }\n:root { --button-primary-active-fill: #7eb8c9; }\n:root { --button-primary-text: #2e3440; }\n:root { --button-secondary-fill: #3b4252; }\n:root { --button-secondary-active-fill: #434c5e; }\n:root { --button-secondary-text: #eceff4; }\n:root { --button-danger-fill: #bf616a; }\n:root { --button-danger-active-fill: #a9545c; }\n:root { --button-danger-text: #eceff4; }\n:root { --bg-primary: #2e3440; }\n:root { --bg-secondary: #242933; }\n:root { --bg-tertiary: #3b4252; }\n:root { --bg-hover: #3b4252; }\n:root { --bg-active: #434c5e; }\n:root { --bg-code: #3b4252; }\n:root { --bg-code-block: #242933; }\n:root { --bg-blockquote: #3b4252; }\n:root { --bg-table-header: #434c5e; }\n:root { --bg-table-row-odd: #2e3440; }\n:root { --bg-table-row-even: #323844; }"
+  },
+  {
+    "name": "Sakura Blossom",
+    "tags": [
+      "light",
+      "cute"
+    ],
+    "bg1": "#fdf0f3",
+    "bg2": "#f7e0e6",
+    "bg3": "#f0cdd7",
+    "sidebar": "#f7e0e6",
+    "accent": "#d45f7f",
+    "accent2": "#e87fa0",
+    "text": "#5a2d3f",
+    "textMid": "#7a3d52",
+    "textDim": "#c4a0ae",
+    "online": "#78c98a",
+    "input": "#f5dde5",
+    "border": "#ecc9d4",
+    "avatarColors": [
+      "#d45f7f",
+      "#78c98a",
+      "#7aaae8"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', 'Gill Sans', Optima, system-ui, sans-serif; }\n:root { --font-mono: 'Fira Code', 'Courier New', monospace; }\n:root { --background-primary: #fdf0f3; }\n:root { --background-secondary: #f7e0e6; }\n:root { --background-secondary-alt: #f7e0e6; }\n:root { --background-secondary-lighter: #fdf0f3; }\n:root { --background-tertiary: #f0cdd7; }\n:root { --background-textarea: #fdf0f3; }\n:root { --background-header-primary: #fdf0f3; }\n:root { --background-header-primary-hover: #f5dde5; }\n:root { --background-header-secondary: #ecc9d4; }\n:root { --channel-header-background: #fdf0f3; }\n:root { --background-modifier-hover: #f5dde5; }\n:root { --background-modifier-selected: #ecc9d4; }\n:root { --background-modifier-accent: #e2b5c3; }\n:root { --background-modifier-accent-focus: #d499ae; }\n:root { --guild-list-foreground: #7a3d52; }\n:root { --brand-primary: #d45f7f; }\n:root { --brand-secondary: #e87fa0; }\n:root { --brand-primary-light: #f0a0bc; }\n:root { --brand-primary-fill: #fdf0f3; }\n:root { --status-online: #78c98a; }\n:root { --status-idle: #e8c97a; }\n:root { --status-dnd: #e87a7a; }\n:root { --status-offline: #c4a0ae; }\n:root { --status-danger: #e87a7a; }\n:root { --text-primary: #5a2d3f; }\n:root { --text-secondary: #7a3d52; }\n:root { --text-tertiary: #9a5068; }\n:root { --text-primary-muted: #c4a0ae; }\n:root { --text-chat: #5a2d3f; }\n:root { --text-chat-muted: #9a5068; }\n:root { --text-link: #d45f7f; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --border-color: #ecc9d4; }\n:root { --border-color-hover: #d499ae; }\n:root { --border-color-focus: #d45f7f; }\n:root { --accent-primary: #d45f7f; }\n:root { --accent-success: #78c98a; }\n:root { --accent-warning: #e8c97a; }\n:root { --accent-danger: #e87a7a; }\n:root { --button-primary-fill: #d45f7f; }\n:root { --button-primary-active-fill: #c04a6a; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #ecc9d4; }\n:root { --button-secondary-active-fill: #e2b5c3; }\n:root { --button-secondary-text: #5a2d3f; }\n:root { --button-danger-fill: #e87a7a; }\n:root { --button-danger-active-fill: #d06060; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #fdf0f3; }\n:root { --bg-secondary: #f7e0e6; }\n:root { --bg-tertiary: #f5dde5; }\n:root { --bg-hover: #f5dde5; }\n:root { --bg-active: #ecc9d4; }\n:root { --bg-code: #f5dde5; }\n:root { --bg-code-block: #f0cdd7; }\n:root { --bg-blockquote: #f5dde5; }\n:root { --bg-table-header: #ecc9d4; }\n:root { --bg-table-row-odd: #fdf0f3; }\n:root { --bg-table-row-even: #faeef2; }"
+  },
+  {
+    "name": "Bubblegum Pop",
+    "tags": [
+      "dark",
+      "cute"
+    ],
+    "bg1": "#1a0d2e",
+    "bg2": "#130920",
+    "bg3": "#0d0618",
+    "sidebar": "#130920",
+    "accent": "#ff3dab",
+    "accent2": "#bf2eff",
+    "text": "#ffaaee",
+    "textMid": "#dd88cc",
+    "textDim": "#6040a0",
+    "online": "#00ffaa",
+    "input": "#2d1a4a",
+    "border": "#3d2560",
+    "avatarColors": [
+      "#ff3dab",
+      "#00ffaa",
+      "#00ddff"
+    ],
+    "css": ":root { --font-sans: 'Quicksand', system-ui, sans-serif; }\n:root { --font-mono: 'Courier New', monospace; }\n:root { --background-primary: #1a0d2e; }\n:root { --background-secondary: #130920; }\n:root { --background-secondary-alt: #130920; }\n:root { --background-secondary-lighter: #1a0d2e; }\n:root { --background-tertiary: #0d0618; }\n:root { --background-textarea: #1a0d2e; }\n:root { --background-header-primary: #1a0d2e; }\n:root { --background-header-primary-hover: #2d1a4a; }\n:root { --background-header-secondary: #2d1a4a; }\n:root { --channel-header-background: #1a0d2e; }\n:root { --background-modifier-hover: #2d1a4a; }\n:root { --background-modifier-selected: #3d2560; }\n:root { --background-modifier-accent: #4a2d75; }\n:root { --background-modifier-accent-focus: #6040a0; }\n:root { --guild-list-foreground: #ffaaee; }\n:root { --brand-primary: #ff3dab; }\n:root { --brand-secondary: #bf2eff; }\n:root { --brand-primary-light: #ff70c8; }\n:root { --brand-primary-fill: #1a0d2e; }\n:root { --status-online: #00ffaa; }\n:root { --status-idle: #ffdd00; }\n:root { --status-dnd: #ff3d3d; }\n:root { --status-offline: #6040a0; }\n:root { --status-danger: #ff3d3d; }\n:root { --text-primary: #ffaaee; }\n:root { --text-secondary: #dd88cc; }\n:root { --text-tertiary: #bb66aa; }\n:root { --text-primary-muted: #6040a0; }\n:root { --text-chat: #ffaaee; }\n:root { --text-chat-muted: #bb66aa; }\n:root { --text-link: #00ddff; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --border-color: #3d2560; }\n:root { --border-color-hover: #6040a0; }\n:root { --border-color-focus: #ff3dab; }\n:root { --accent-primary: #ff3dab; }\n:root { --accent-success: #00ffaa; }\n:root { --accent-warning: #ffdd00; }\n:root { --accent-danger: #ff3d3d; }\n:root { --accent-info: #00ddff; }\n:root { --accent-purple: #bf2eff; }\n:root { --button-primary-fill: #ff3dab; }\n:root { --button-primary-active-fill: #cc2a88; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #2d1a4a; }\n:root { --button-secondary-active-fill: #3d2560; }\n:root { --button-secondary-text: #ffaaee; }\n:root { --button-danger-fill: #ff3d3d; }\n:root { --button-danger-active-fill: #cc2a2a; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #1a0d2e; }\n:root { --bg-secondary: #130920; }\n:root { --bg-tertiary: #2d1a4a; }\n:root { --bg-hover: #2d1a4a; }\n:root { --bg-active: #3d2560; }\n:root { --bg-code: #2d1a4a; }\n:root { --bg-code-block: #130920; }\n:root { --bg-blockquote: #2d1a4a; }\n:root { --bg-table-header: #3d2560; }\n:root { --bg-table-row-odd: #1a0d2e; }\n:root { --bg-table-row-even: #1e1035; }"
+  },
+  {
+    "name": "Twilight Teddy",
+    "tags": [
+      "dark",
+      "cute"
+    ],
+    "bg1": "#2c1f14",
+    "bg2": "#231809",
+    "bg3": "#1a1008",
+    "sidebar": "#231809",
+    "accent": "#d4924a",
+    "accent2": "#c07a30",
+    "text": "#f0d9be",
+    "textMid": "#d4bc9a",
+    "textDim": "#7a5c44",
+    "online": "#7abf7a",
+    "input": "#3d2c1c",
+    "border": "#4e3825",
+    "avatarColors": [
+      "#d4924a",
+      "#7abf7a",
+      "#aa7abf"
+    ],
+    "css": ":root { --font-sans: 'Lora', Georgia, serif; }\n:root { --font-mono: 'Source Code Pro', monospace; }\n:root { --background-primary: #2c1f14; }\n:root { --background-secondary: #231809; }\n:root { --background-secondary-alt: #231809; }\n:root { --background-secondary-lighter: #2c1f14; }\n:root { --background-tertiary: #1a1008; }\n:root { --background-textarea: #2c1f14; }\n:root { --background-header-primary: #2c1f14; }\n:root { --background-header-primary-hover: #3d2c1c; }\n:root { --background-header-secondary: #4e3825; }\n:root { --channel-header-background: #2c1f14; }\n:root { --background-modifier-hover: #3d2c1c; }\n:root { --background-modifier-selected: #4e3825; }\n:root { --background-modifier-accent: #5e4432; }\n:root { --background-modifier-accent-focus: #7a5c44; }\n:root { --guild-list-foreground: #f0d9be; }\n:root { --brand-primary: #d4924a; }\n:root { --brand-secondary: #c07a30; }\n:root { --brand-primary-light: #e8ae72; }\n:root { --brand-primary-fill: #2c1f14; }\n:root { --status-online: #7abf7a; }\n:root { --status-idle: #d4c44a; }\n:root { --status-dnd: #bf7a7a; }\n:root { --status-offline: #7a5c44; }\n:root { --status-danger: #bf7a7a; }\n:root { --text-primary: #f0d9be; }\n:root { --text-secondary: #d4bc9a; }\n:root { --text-tertiary: #b89e7e; }\n:root { --text-primary-muted: #7a5c44; }\n:root { --text-chat: #f0d9be; }\n:root { --text-chat-muted: #b89e7e; }\n:root { --text-link: #d4924a; }\n:root { --text-on-brand-primary: #1a1008; }\n:root { --border-color: #4e3825; }\n:root { --border-color-hover: #7a5c44; }\n:root { --border-color-focus: #d4924a; }\n:root { --accent-primary: #d4924a; }\n:root { --accent-success: #7abf7a; }\n:root { --accent-warning: #d4c44a; }\n:root { --accent-danger: #bf7a7a; }\n:root { --button-primary-fill: #d4924a; }\n:root { --button-primary-active-fill: #c07a30; }\n:root { --button-primary-text: #1a1008; }\n:root { --button-secondary-fill: #3d2c1c; }\n:root { --button-secondary-active-fill: #4e3825; }\n:root { --button-secondary-text: #f0d9be; }\n:root { --button-danger-fill: #bf7a7a; }\n:root { --button-danger-active-fill: #a86060; }\n:root { --button-danger-text: #f0d9be; }\n:root { --bg-primary: #2c1f14; }\n:root { --bg-secondary: #231809; }\n:root { --bg-tertiary: #3d2c1c; }\n:root { --bg-hover: #3d2c1c; }\n:root { --bg-active: #4e3825; }\n:root { --bg-code: #3d2c1c; }\n:root { --bg-code-block: #231809; }\n:root { --bg-blockquote: #3d2c1c; }\n:root { --bg-table-header: #4e3825; }\n:root { --bg-table-row-odd: #2c1f14; }\n:root { --bg-table-row-even: #30231a; }"
+  },
+  {
+    "name": "Cyber Neon",
+    "tags": [
+      "dark",
+      "tech"
+    ],
+    "bg1": "#0a0f0a",
+    "bg2": "#050a05",
+    "bg3": "#020602",
+    "sidebar": "#050a05",
+    "accent": "#00ff41",
+    "accent2": "#00cc34",
+    "text": "#00ff41",
+    "textMid": "#00cc34",
+    "textDim": "#1a4a1a",
+    "online": "#00ff41",
+    "input": "#0f1f0f",
+    "border": "#143514",
+    "avatarColors": [
+      "#00ff41",
+      "#ff0040",
+      "#00ffff"
+    ],
+    "css": ":root { --font-sans: 'Share Tech', monospace; }\n:root { --font-mono: 'Share Tech Mono', monospace; }\n:root { --background-primary: #0a0f0a; }\n:root { --background-secondary: #050a05; }\n:root { --background-secondary-alt: #050a05; }\n:root { --background-secondary-lighter: #0a0f0a; }\n:root { --background-tertiary: #020602; }\n:root { --background-textarea: #0a0f0a; }\n:root { --background-header-primary: #0a0f0a; }\n:root { --background-header-primary-hover: #0f1f0f; }\n:root { --background-header-secondary: #0f2a0f; }\n:root { --channel-header-background: #0a0f0a; }\n:root { --background-modifier-hover: #0f1f0f; }\n:root { --background-modifier-selected: #143514; }\n:root { --background-modifier-accent: #1a4a1a; }\n:root { --background-modifier-accent-focus: #206020; }\n:root { --guild-list-foreground: #00ff41; }\n:root { --brand-primary: #00ff41; }\n:root { --brand-secondary: #00cc34; }\n:root { --brand-primary-light: #66ff88; }\n:root { --brand-primary-fill: #0a0f0a; }\n:root { --status-online: #00ff41; }\n:root { --status-idle: #ffff00; }\n:root { --status-dnd: #ff0040; }\n:root { --status-offline: #1a4a1a; }\n:root { --status-danger: #ff0040; }\n:root { --text-primary: #00ff41; }\n:root { --text-secondary: #00cc34; }\n:root { --text-tertiary: #009927; }\n:root { --text-primary-muted: #206020; }\n:root { --text-chat: #00ff41; }\n:root { --text-chat-muted: #009927; }\n:root { --text-link: #00ffff; }\n:root { --text-on-brand-primary: #0a0f0a; }\n:root { --border-color: #143514; }\n:root { --border-color-hover: #206020; }\n:root { --border-color-focus: #00ff41; }\n:root { --accent-primary: #00ff41; }\n:root { --accent-success: #00ff41; }\n:root { --accent-warning: #ffff00; }\n:root { --accent-danger: #ff0040; }\n:root { --accent-info: #00ffff; }\n:root { --accent-purple: #cc00ff; }\n:root { --button-primary-fill: #00cc34; }\n:root { --button-primary-active-fill: #009927; }\n:root { --button-primary-text: #0a0f0a; }\n:root { --button-secondary-fill: #0f2a0f; }\n:root { --button-secondary-active-fill: #143514; }\n:root { --button-secondary-text: #00ff41; }\n:root { --button-danger-fill: #ff0040; }\n:root { --button-danger-active-fill: #cc0030; }\n:root { --button-danger-text: #0a0f0a; }\n:root { --bg-primary: #0a0f0a; }\n:root { --bg-secondary: #050a05; }\n:root { --bg-tertiary: #0f1f0f; }\n:root { --bg-hover: #0f1f0f; }\n:root { --bg-active: #143514; }\n:root { --bg-code: #0f1f0f; }\n:root { --bg-code-block: #050a05; }\n:root { --bg-blockquote: #0f1f0f; }\n:root { --bg-table-header: #143514; }\n:root { --bg-table-row-odd: #0a0f0a; }\n:root { --bg-table-row-even: #0c130c; }"
+  },
+  {
+    "name": "Synthwave",
+    "tags": [
+      "dark",
+      "tech"
+    ],
+    "bg1": "#16072e",
+    "bg2": "#0e0420",
+    "bg3": "#080218",
+    "sidebar": "#0e0420",
+    "accent": "#ff2d78",
+    "accent2": "#cc66ff",
+    "text": "#f0d0ff",
+    "textMid": "#cc99ee",
+    "textDim": "#44208a",
+    "online": "#00ffaa",
+    "input": "#261050",
+    "border": "#38186e",
+    "avatarColors": [
+      "#ff2d78",
+      "#00ffaa",
+      "#cc66ff"
+    ],
+    "css": ":root { --font-sans: 'Orbitron', system-ui, sans-serif; }\n:root { --font-mono: 'Space Mono', monospace; }\n:root { --background-primary: #16072e; }\n:root { --background-secondary: #0e0420; }\n:root { --background-secondary-alt: #0e0420; }\n:root { --background-secondary-lighter: #16072e; }\n:root { --background-tertiary: #080218; }\n:root { --background-textarea: #16072e; }\n:root { --background-header-primary: #16072e; }\n:root { --background-header-primary-hover: #261050; }\n:root { --background-header-secondary: #2e1460; }\n:root { --channel-header-background: #16072e; }\n:root { --background-modifier-hover: #261050; }\n:root { --background-modifier-selected: #38186e; }\n:root { --background-modifier-accent: #44208a; }\n:root { --background-modifier-accent-focus: #5830a0; }\n:root { --guild-list-foreground: #ff88ee; }\n:root { --brand-primary: #ff2d78; }\n:root { --brand-secondary: #cc1d5f; }\n:root { --brand-primary-light: #ff6aaa; }\n:root { --brand-primary-fill: #16072e; }\n:root { --status-online: #00ffaa; }\n:root { --status-idle: #ffe066; }\n:root { --status-dnd: #ff2d2d; }\n:root { --status-offline: #44208a; }\n:root { --status-danger: #ff2d2d; }\n:root { --text-primary: #f0d0ff; }\n:root { --text-secondary: #cc99ee; }\n:root { --text-tertiary: #aa66cc; }\n:root { --text-primary-muted: #5830a0; }\n:root { --text-chat: #f0d0ff; }\n:root { --text-chat-muted: #aa66cc; }\n:root { --text-link: #00e5ff; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --border-color: #38186e; }\n:root { --border-color-hover: #5830a0; }\n:root { --border-color-focus: #ff2d78; }\n:root { --accent-primary: #ff2d78; }\n:root { --accent-success: #00ffaa; }\n:root { --accent-warning: #ffe066; }\n:root { --accent-danger: #ff2d2d; }\n:root { --accent-info: #00e5ff; }\n:root { --accent-purple: #cc66ff; }\n:root { --button-primary-fill: #ff2d78; }\n:root { --button-primary-active-fill: #cc1d5f; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #2e1460; }\n:root { --button-secondary-active-fill: #38186e; }\n:root { --button-secondary-text: #f0d0ff; }\n:root { --button-danger-fill: #ff2d2d; }\n:root { --button-danger-active-fill: #cc1d1d; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #16072e; }\n:root { --bg-secondary: #0e0420; }\n:root { --bg-tertiary: #261050; }\n:root { --bg-hover: #261050; }\n:root { --bg-active: #38186e; }\n:root { --bg-code: #261050; }\n:root { --bg-code-block: #0e0420; }\n:root { --bg-blockquote: #261050; }\n:root { --bg-table-header: #38186e; }\n:root { --bg-table-row-odd: #16072e; }\n:root { --bg-table-row-even: #1a0c35; }"
+  },
+  {
+    "name": "Hacker Terminal",
+    "tags": [
+      "dark",
+      "tech"
+    ],
+    "bg1": "#0c0900",
+    "bg2": "#080600",
+    "bg3": "#040300",
+    "sidebar": "#080600",
+    "accent": "#ffb000",
+    "accent2": "#cc8c00",
+    "text": "#ffb000",
+    "textMid": "#cc8c00",
+    "textDim": "#332900",
+    "online": "#ffb000",
+    "input": "#1a1500",
+    "border": "#2a2200",
+    "avatarColors": [
+      "#ffb000",
+      "#ff4400",
+      "#ffdd00"
+    ],
+    "css": ":root { --font-sans: 'IBM Plex Mono', monospace; }\n:root { --font-mono: 'IBM Plex Mono', monospace; }\n:root { --background-primary: #0c0900; }\n:root { --background-secondary: #080600; }\n:root { --background-secondary-alt: #080600; }\n:root { --background-secondary-lighter: #0c0900; }\n:root { --background-tertiary: #040300; }\n:root { --background-textarea: #0c0900; }\n:root { --background-header-primary: #0c0900; }\n:root { --background-header-primary-hover: #1a1500; }\n:root { --background-header-secondary: #221c00; }\n:root { --channel-header-background: #0c0900; }\n:root { --background-modifier-hover: #1a1500; }\n:root { --background-modifier-selected: #2a2200; }\n:root { --background-modifier-accent: #332900; }\n:root { --background-modifier-accent-focus: #4a3c00; }\n:root { --guild-list-foreground: #ffb000; }\n:root { --brand-primary: #ffb000; }\n:root { --brand-secondary: #cc8c00; }\n:root { --brand-primary-light: #ffcc55; }\n:root { --brand-primary-fill: #0c0900; }\n:root { --status-online: #ffb000; }\n:root { --status-idle: #ffdd00; }\n:root { --status-dnd: #ff4400; }\n:root { --status-offline: #4a3c00; }\n:root { --status-danger: #ff4400; }\n:root { --text-primary: #ffb000; }\n:root { --text-secondary: #cc8c00; }\n:root { --text-tertiary: #996800; }\n:root { --text-primary-muted: #4a3c00; }\n:root { --text-chat: #ffb000; }\n:root { --text-chat-muted: #996800; }\n:root { --text-link: #ffdd00; }\n:root { --text-on-brand-primary: #0c0900; }\n:root { --border-color: #2a2200; }\n:root { --border-color-hover: #4a3c00; }\n:root { --border-color-focus: #ffb000; }\n:root { --accent-primary: #ffb000; }\n:root { --accent-success: #ffb000; }\n:root { --accent-warning: #ffdd00; }\n:root { --accent-danger: #ff4400; }\n:root { --button-primary-fill: #cc8c00; }\n:root { --button-primary-active-fill: #996800; }\n:root { --button-primary-text: #0c0900; }\n:root { --button-secondary-fill: #221c00; }\n:root { --button-secondary-active-fill: #2a2200; }\n:root { --button-secondary-text: #ffb000; }\n:root { --button-danger-fill: #ff4400; }\n:root { --button-danger-active-fill: #cc3300; }\n:root { --button-danger-text: #0c0900; }\n:root { --bg-primary: #0c0900; }\n:root { --bg-secondary: #080600; }\n:root { --bg-tertiary: #1a1500; }\n:root { --bg-hover: #1a1500; }\n:root { --bg-active: #2a2200; }\n:root { --bg-code: #1a1500; }\n:root { --bg-code-block: #080600; }\n:root { --bg-blockquote: #1a1500; }\n:root { --bg-table-header: #2a2200; }\n:root { --bg-table-row-odd: #0c0900; }\n:root { --bg-table-row-even: #0f0b00; }"
+  },
+  {
+    "name": "Slate Blueprint",
+    "tags": [
+      "dark",
+      "tech"
+    ],
+    "bg1": "#0d1b2a",
+    "bg2": "#091420",
+    "bg3": "#060e17",
+    "sidebar": "#091420",
+    "accent": "#2d9cdb",
+    "accent2": "#1a7fbf",
+    "text": "#e8f4fd",
+    "textMid": "#b0cfe8",
+    "textDim": "#3a5a7a",
+    "online": "#27ae60",
+    "input": "#162840",
+    "border": "#1e3550",
+    "avatarColors": [
+      "#2d9cdb",
+      "#27ae60",
+      "#9b59b6"
+    ],
+    "css": ":root { --font-sans: 'Rajdhani', system-ui, sans-serif; }\n:root { --font-mono: 'Roboto Mono', monospace; }\n:root { --background-primary: #0d1b2a; }\n:root { --background-secondary: #091420; }\n:root { --background-secondary-alt: #091420; }\n:root { --background-secondary-lighter: #0d1b2a; }\n:root { --background-tertiary: #060e17; }\n:root { --background-textarea: #0d1b2a; }\n:root { --background-header-primary: #0d1b2a; }\n:root { --background-header-primary-hover: #162840; }\n:root { --background-header-secondary: #1e3550; }\n:root { --channel-header-background: #0d1b2a; }\n:root { --background-modifier-hover: #162840; }\n:root { --background-modifier-selected: #1e3550; }\n:root { --background-modifier-accent: #274460; }\n:root { --background-modifier-accent-focus: #3a5a7a; }\n:root { --guild-list-foreground: #8ec8f0; }\n:root { --brand-primary: #2d9cdb; }\n:root { --brand-secondary: #1a7fbf; }\n:root { --brand-primary-light: #56b4e9; }\n:root { --brand-primary-fill: #0d1b2a; }\n:root { --status-online: #27ae60; }\n:root { --status-idle: #f2c94c; }\n:root { --status-dnd: #eb5757; }\n:root { --status-offline: #3a5a7a; }\n:root { --status-danger: #eb5757; }\n:root { --text-primary: #e8f4fd; }\n:root { --text-secondary: #b0cfe8; }\n:root { --text-tertiary: #7aacc8; }\n:root { --text-primary-muted: #3a5a7a; }\n:root { --text-chat: #e8f4fd; }\n:root { --text-chat-muted: #7aacc8; }\n:root { --text-link: #56b4e9; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --border-color: #1e3550; }\n:root { --border-color-hover: #3a5a7a; }\n:root { --border-color-focus: #2d9cdb; }\n:root { --accent-primary: #2d9cdb; }\n:root { --accent-success: #27ae60; }\n:root { --accent-warning: #f2c94c; }\n:root { --accent-danger: #eb5757; }\n:root { --button-primary-fill: #2d9cdb; }\n:root { --button-primary-active-fill: #1a7fbf; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #1e3550; }\n:root { --button-secondary-active-fill: #274460; }\n:root { --button-secondary-text: #e8f4fd; }\n:root { --button-danger-fill: #eb5757; }\n:root { --button-danger-active-fill: #c94040; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #0d1b2a; }\n:root { --bg-secondary: #091420; }\n:root { --bg-tertiary: #162840; }\n:root { --bg-hover: #162840; }\n:root { --bg-active: #1e3550; }\n:root { --bg-code: #162840; }\n:root { --bg-code-block: #091420; }\n:root { --bg-blockquote: #162840; }\n:root { --bg-table-header: #1e3550; }\n:root { --bg-table-row-odd: #0d1b2a; }\n:root { --bg-table-row-even: #101f30; }"
+  },
+  {
+    "name": "Autumn Grove",
+    "tags": [
+      "dark",
+      "nature"
+    ],
+    "bg1": "#1f1208",
+    "bg2": "#160d04",
+    "bg3": "#0e0802",
+    "sidebar": "#160d04",
+    "accent": "#d4610a",
+    "accent2": "#aa4c08",
+    "text": "#f0c090",
+    "textMid": "#d4a06a",
+    "textDim": "#6a4422",
+    "online": "#80b858",
+    "input": "#2e1c0c",
+    "border": "#3d2610",
+    "avatarColors": [
+      "#d4610a",
+      "#80b858",
+      "#5888b8"
+    ],
+    "css": ":root { --font-sans: 'Playfair Display', Georgia, serif; }\n:root { --font-mono: 'PT Mono', monospace; }\n:root { --background-primary: #1f1208; }\n:root { --background-secondary: #160d04; }\n:root { --background-secondary-alt: #160d04; }\n:root { --background-secondary-lighter: #1f1208; }\n:root { --background-tertiary: #0e0802; }\n:root { --background-textarea: #1f1208; }\n:root { --background-header-primary: #1f1208; }\n:root { --background-header-primary-hover: #2e1c0c; }\n:root { --background-header-secondary: #3d2610; }\n:root { --channel-header-background: #1f1208; }\n:root { --background-modifier-hover: #2e1c0c; }\n:root { --background-modifier-selected: #3d2610; }\n:root { --background-modifier-accent: #4e3018; }\n:root { --background-modifier-accent-focus: #6a4422; }\n:root { --guild-list-foreground: #f0c090; }\n:root { --brand-primary: #d4610a; }\n:root { --brand-secondary: #aa4c08; }\n:root { --brand-primary-light: #e88040; }\n:root { --brand-primary-fill: #1f1208; }\n:root { --status-online: #80b858; }\n:root { --status-idle: #d4b840; }\n:root { --status-dnd: #d44040; }\n:root { --status-offline: #6a4422; }\n:root { --status-danger: #d44040; }\n:root { --text-primary: #f0c090; }\n:root { --text-secondary: #d4a06a; }\n:root { --text-tertiary: #b88044; }\n:root { --text-primary-muted: #6a4422; }\n:root { --text-chat: #f0c090; }\n:root { --text-chat-muted: #b88044; }\n:root { --text-link: #e88040; }\n:root { --text-on-brand-primary: #0e0802; }\n:root { --border-color: #3d2610; }\n:root { --border-color-hover: #6a4422; }\n:root { --border-color-focus: #d4610a; }\n:root { --accent-primary: #d4610a; }\n:root { --accent-success: #80b858; }\n:root { --accent-warning: #d4b840; }\n:root { --accent-danger: #d44040; }\n:root { --button-primary-fill: #d4610a; }\n:root { --button-primary-active-fill: #aa4c08; }\n:root { --button-primary-text: #0e0802; }\n:root { --button-secondary-fill: #3d2610; }\n:root { --button-secondary-active-fill: #4e3018; }\n:root { --button-secondary-text: #f0c090; }\n:root { --button-danger-fill: #d44040; }\n:root { --button-danger-active-fill: #aa2c2c; }\n:root { --button-danger-text: #0e0802; }\n:root { --bg-primary: #1f1208; }\n:root { --bg-secondary: #160d04; }\n:root { --bg-tertiary: #2e1c0c; }\n:root { --bg-hover: #2e1c0c; }\n:root { --bg-active: #3d2610; }\n:root { --bg-code: #2e1c0c; }\n:root { --bg-code-block: #160d04; }\n:root { --bg-blockquote: #2e1c0c; }\n:root { --bg-table-header: #3d2610; }\n:root { --bg-table-row-odd: #1f1208; }\n:root { --bg-table-row-even: #22150a; }"
+  },
+  {
+    "name": "Ocean Depths",
+    "tags": [
+      "dark",
+      "nature"
+    ],
+    "bg1": "#071e26",
+    "bg2": "#04141c",
+    "bg3": "#020b10",
+    "sidebar": "#04141c",
+    "accent": "#00bfb0",
+    "accent2": "#009990",
+    "text": "#c8f0ee",
+    "textMid": "#90d0cc",
+    "textDim": "#266480",
+    "online": "#40d9a0",
+    "input": "#0e2e3c",
+    "border": "#153d50",
+    "avatarColors": [
+      "#00bfb0",
+      "#40d9a0",
+      "#4080d9"
+    ],
+    "css": ":root { --font-sans: 'Inter', system-ui, sans-serif; }\n:root { --font-mono: 'Fira Code', monospace; }\n:root { --background-primary: #071e26; }\n:root { --background-secondary: #04141c; }\n:root { --background-secondary-alt: #04141c; }\n:root { --background-secondary-lighter: #071e26; }\n:root { --background-tertiary: #020b10; }\n:root { --background-textarea: #071e26; }\n:root { --background-header-primary: #071e26; }\n:root { --background-header-primary-hover: #0e2e3c; }\n:root { --background-header-secondary: #153d50; }\n:root { --channel-header-background: #071e26; }\n:root { --background-modifier-hover: #0e2e3c; }\n:root { --background-modifier-selected: #153d50; }\n:root { --background-modifier-accent: #1c4c62; }\n:root { --background-modifier-accent-focus: #266480; }\n:root { --guild-list-foreground: #7ee8e0; }\n:root { --brand-primary: #00bfb0; }\n:root { --brand-secondary: #009990; }\n:root { --brand-primary-light: #40d9d0; }\n:root { --brand-primary-fill: #071e26; }\n:root { --status-online: #40d9a0; }\n:root { --status-idle: #d9d040; }\n:root { --status-dnd: #d94040; }\n:root { --status-offline: #266480; }\n:root { --status-danger: #d94040; }\n:root { --text-primary: #c8f0ee; }\n:root { --text-secondary: #90d0cc; }\n:root { --text-tertiary: #5ab0aa; }\n:root { --text-primary-muted: #266480; }\n:root { --text-chat: #c8f0ee; }\n:root { --text-chat-muted: #5ab0aa; }\n:root { --text-link: #40d9d0; }\n:root { --text-on-brand-primary: #020b10; }\n:root { --border-color: #153d50; }\n:root { --border-color-hover: #266480; }\n:root { --border-color-focus: #00bfb0; }\n:root { --accent-primary: #00bfb0; }\n:root { --accent-success: #40d9a0; }\n:root { --accent-warning: #d9d040; }\n:root { --accent-danger: #d94040; }\n:root { --button-primary-fill: #00bfb0; }\n:root { --button-primary-active-fill: #009990; }\n:root { --button-primary-text: #020b10; }\n:root { --button-secondary-fill: #153d50; }\n:root { --button-secondary-active-fill: #1c4c62; }\n:root { --button-secondary-text: #c8f0ee; }\n:root { --button-danger-fill: #d94040; }\n:root { --button-danger-active-fill: #b02c2c; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #071e26; }\n:root { --bg-secondary: #04141c; }\n:root { --bg-tertiary: #0e2e3c; }\n:root { --bg-hover: #0e2e3c; }\n:root { --bg-active: #153d50; }\n:root { --bg-code: #0e2e3c; }\n:root { --bg-code-block: #04141c; }\n:root { --bg-blockquote: #0e2e3c; }\n:root { --bg-table-header: #153d50; }\n:root { --bg-table-row-odd: #071e26; }\n:root { --bg-table-row-even: #09222e; }"
+  },
+  {
+    "name": "Midnight Moss",
+    "tags": [
+      "dark",
+      "nature"
+    ],
+    "bg1": "#141710",
+    "bg2": "#0e110a",
+    "bg3": "#090c06",
+    "sidebar": "#0e110a",
+    "accent": "#6a9a52",
+    "accent2": "#527a3e",
+    "text": "#c8d8b8",
+    "textMid": "#a0b890",
+    "textDim": "#404f36",
+    "online": "#6a9a52",
+    "input": "#1e2418",
+    "border": "#262e20",
+    "avatarColors": [
+      "#6a9a52",
+      "#b8a252",
+      "#7a6a9a"
+    ],
+    "css": ":root { --font-sans: 'DM Sans', system-ui, sans-serif; }\n:root { --font-mono: 'DM Mono', monospace; }\n:root { --background-primary: #141710; }\n:root { --background-secondary: #0e110a; }\n:root { --background-secondary-alt: #0e110a; }\n:root { --background-secondary-lighter: #141710; }\n:root { --background-tertiary: #090c06; }\n:root { --background-textarea: #141710; }\n:root { --background-header-primary: #141710; }\n:root { --background-header-primary-hover: #1e2418; }\n:root { --background-header-secondary: #262e20; }\n:root { --channel-header-background: #141710; }\n:root { --background-modifier-hover: #1e2418; }\n:root { --background-modifier-selected: #262e20; }\n:root { --background-modifier-accent: #303c28; }\n:root { --background-modifier-accent-focus: #404f36; }\n:root { --guild-list-foreground: #a8c898; }\n:root { --brand-primary: #6a9a52; }\n:root { --brand-secondary: #527a3e; }\n:root { --brand-primary-light: #86b86a; }\n:root { --brand-primary-fill: #141710; }\n:root { --status-online: #6a9a52; }\n:root { --status-idle: #b8a252; }\n:root { --status-dnd: #9a5252; }\n:root { --status-offline: #404f36; }\n:root { --status-danger: #9a5252; }\n:root { --text-primary: #c8d8b8; }\n:root { --text-secondary: #a0b890; }\n:root { --text-tertiary: #7a9868; }\n:root { --text-primary-muted: #404f36; }\n:root { --text-chat: #c8d8b8; }\n:root { --text-chat-muted: #7a9868; }\n:root { --text-link: #86b86a; }\n:root { --text-on-brand-primary: #090c06; }\n:root { --border-color: #262e20; }\n:root { --border-color-hover: #404f36; }\n:root { --border-color-focus: #6a9a52; }\n:root { --accent-primary: #6a9a52; }\n:root { --accent-success: #6a9a52; }\n:root { --accent-warning: #b8a252; }\n:root { --accent-danger: #9a5252; }\n:root { --button-primary-fill: #6a9a52; }\n:root { --button-primary-active-fill: #527a3e; }\n:root { --button-primary-text: #090c06; }\n:root { --button-secondary-fill: #262e20; }\n:root { --button-secondary-active-fill: #303c28; }\n:root { --button-secondary-text: #c8d8b8; }\n:root { --button-danger-fill: #9a5252; }\n:root { --button-danger-active-fill: #7a3c3c; }\n:root { --button-danger-text: #c8d8b8; }\n:root { --bg-primary: #141710; }\n:root { --bg-secondary: #0e110a; }\n:root { --bg-tertiary: #1e2418; }\n:root { --bg-hover: #1e2418; }\n:root { --bg-active: #262e20; }\n:root { --bg-code: #1e2418; }\n:root { --bg-code-block: #0e110a; }\n:root { --bg-blockquote: #1e2418; }\n:root { --bg-table-header: #262e20; }\n:root { --bg-table-row-odd: #141710; }\n:root { --bg-table-row-even: #171a12; }"
+  },
+  {
+    "name": "Cherry Blossom Rain",
+    "tags": [
+      "light",
+      "cute"
+    ],
+    "bg1": "#f5eef8",
+    "bg2": "#ede4f2",
+    "bg3": "#e4d8ee",
+    "sidebar": "#ede4f2",
+    "accent": "#9b59b6",
+    "accent2": "#7d3c98",
+    "text": "#3e1e58",
+    "textMid": "#5e3a7a",
+    "textDim": "#c8aedc",
+    "online": "#58a86e",
+    "input": "#dfd0ec",
+    "border": "#d4c0e4",
+    "avatarColors": [
+      "#9b59b6",
+      "#58a86e",
+      "#5880d4"
+    ],
+    "css": ":root { --font-sans: 'Noto Serif', Georgia, serif; }\n:root { --font-mono: 'Noto Sans Mono', monospace; }\n:root { --background-primary: #f5eef8; }\n:root { --background-secondary: #ede4f2; }\n:root { --background-secondary-alt: #ede4f2; }\n:root { --background-secondary-lighter: #f5eef8; }\n:root { --background-tertiary: #e4d8ee; }\n:root { --background-textarea: #f5eef8; }\n:root { --background-header-primary: #f5eef8; }\n:root { --background-header-primary-hover: #dfd0ec; }\n:root { --background-header-secondary: #d4c0e4; }\n:root { --channel-header-background: #f5eef8; }\n:root { --background-modifier-hover: #dfd0ec; }\n:root { --background-modifier-selected: #d4c0e4; }\n:root { --background-modifier-accent: #c8aedc; }\n:root { --background-modifier-accent-focus: #aa98ca; }\n:root { --guild-list-foreground: #5e3a7a; }\n:root { --brand-primary: #9b59b6; }\n:root { --brand-secondary: #7d3c98; }\n:root { --brand-primary-light: #b47cca; }\n:root { --brand-primary-fill: #f5eef8; }\n:root { --status-online: #58a86e; }\n:root { --status-idle: #d4ae58; }\n:root { --status-dnd: #d45888; }\n:root { --status-offline: #b895cc; }\n:root { --status-danger: #d45888; }\n:root { --text-primary: #3e1e58; }\n:root { --text-secondary: #5e3a7a; }\n:root { --text-tertiary: #7a5490; }\n:root { --text-primary-muted: #b895cc; }\n:root { --text-chat: #3e1e58; }\n:root { --text-chat-muted: #7a5490; }\n:root { --text-link: #9b59b6; }\n:root { --text-on-brand-primary: #f5eef8; }\n:root { --border-color: #d4c0e4; }\n:root { --border-color-hover: #b895cc; }\n:root { --border-color-focus: #9b59b6; }\n:root { --accent-primary: #9b59b6; }\n:root { --accent-success: #58a86e; }\n:root { --accent-warning: #d4ae58; }\n:root { --accent-danger: #d45888; }\n:root { --button-primary-fill: #9b59b6; }\n:root { --button-primary-active-fill: #7d3c98; }\n:root { --button-primary-text: #f5eef8; }\n:root { --button-secondary-fill: #d4c0e4; }\n:root { --button-secondary-active-fill: #c8aedc; }\n:root { --button-secondary-text: #3e1e58; }\n:root { --button-danger-fill: #d45888; }\n:root { --button-danger-active-fill: #b03a68; }\n:root { --button-danger-text: #f5eef8; }\n:root { --bg-primary: #f5eef8; }\n:root { --bg-secondary: #ede4f2; }\n:root { --bg-tertiary: #dfd0ec; }\n:root { --bg-hover: #dfd0ec; }\n:root { --bg-active: #d4c0e4; }\n:root { --bg-code: #dfd0ec; }\n:root { --bg-code-block: #ede4f2; }\n:root { --bg-blockquote: #dfd0ec; }\n:root { --bg-table-header: #d4c0e4; }\n:root { --bg-table-row-odd: #f5eef8; }\n:root { --bg-table-row-even: #f0e8f5; }"
+  },
+  {
+    "name": "Obsidian Gold",
+    "tags": [
+      "dark"
+    ],
+    "bg1": "#0a0a08",
+    "bg2": "#060604",
+    "bg3": "#030302",
+    "sidebar": "#060604",
+    "accent": "#c8960c",
+    "accent2": "#a07808",
+    "text": "#f0e4b0",
+    "textMid": "#d4aa30",
+    "textDim": "#3a3618",
+    "online": "#6ab040",
+    "input": "#141408",
+    "border": "#1e1c0c",
+    "avatarColors": [
+      "#c8960c",
+      "#6ab040",
+      "#4088c0"
+    ],
+    "css": ":root { --font-sans: 'Cinzel', Georgia, serif; }\n:root { --font-mono: 'JetBrains Mono', monospace; }\n:root { --background-primary: #0a0a08; }\n:root { --background-secondary: #060604; }\n:root { --background-secondary-alt: #060604; }\n:root { --background-secondary-lighter: #0a0a08; }\n:root { --background-tertiary: #030302; }\n:root { --background-textarea: #0a0a08; }\n:root { --background-header-primary: #0a0a08; }\n:root { --background-header-primary-hover: #141408; }\n:root { --background-header-secondary: #1e1c0c; }\n:root { --channel-header-background: #0a0a08; }\n:root { --background-modifier-hover: #141408; }\n:root { --background-modifier-selected: #1e1c0c; }\n:root { --background-modifier-accent: #2a2810; }\n:root { --background-modifier-accent-focus: #3a3618; }\n:root { --guild-list-foreground: #d4aa30; }\n:root { --brand-primary: #c8960c; }\n:root { --brand-secondary: #a07808; }\n:root { --brand-primary-light: #e0b840; }\n:root { --brand-primary-fill: #0a0a08; }\n:root { --status-online: #6ab040; }\n:root { --status-idle: #c8960c; }\n:root { --status-dnd: #c04040; }\n:root { --status-offline: #3a3618; }\n:root { --status-danger: #c04040; }\n:root { --text-primary: #f0e4b0; }\n:root { --text-secondary: #d4aa30; }\n:root { --text-tertiary: #a07828; }\n:root { --text-primary-muted: #3a3618; }\n:root { --text-chat: #f0e4b0; }\n:root { --text-chat-muted: #a07828; }\n:root { --text-link: #e0b840; }\n:root { --text-on-brand-primary: #030302; }\n:root { --border-color: #1e1c0c; }\n:root { --border-color-hover: #3a3618; }\n:root { --border-color-focus: #c8960c; }\n:root { --accent-primary: #c8960c; }\n:root { --accent-success: #6ab040; }\n:root { --accent-warning: #c8960c; }\n:root { --accent-danger: #c04040; }\n:root { --button-primary-fill: #c8960c; }\n:root { --button-primary-active-fill: #a07808; }\n:root { --button-primary-text: #030302; }\n:root { --button-secondary-fill: #1e1c0c; }\n:root { --button-secondary-active-fill: #2a2810; }\n:root { --button-secondary-text: #f0e4b0; }\n:root { --button-danger-fill: #c04040; }\n:root { --button-danger-active-fill: #9a2c2c; }\n:root { --button-danger-text: #f0e4b0; }\n:root { --bg-primary: #0a0a08; }\n:root { --bg-secondary: #060604; }\n:root { --bg-tertiary: #141408; }\n:root { --bg-hover: #141408; }\n:root { --bg-active: #1e1c0c; }\n:root { --bg-code: #141408; }\n:root { --bg-code-block: #060604; }\n:root { --bg-blockquote: #141408; }\n:root { --bg-table-header: #1e1c0c; }\n:root { --bg-table-row-odd: #0a0a08; }\n:root { --bg-table-row-even: #0c0c09; }"
+  },
+  {
+    "name": "Dusty Rose",
+    "tags": [
+      "dark",
+      "cute",
+      "soft"
+    ],
+    "bg1": "#2e2328",
+    "bg2": "#261c20",
+    "bg3": "#1e1518",
+    "sidebar": "#261c20",
+    "accent": "#b87890",
+    "accent2": "#a06070",
+    "text": "#e0c8d0",
+    "textMid": "#c0a0ac",
+    "textDim": "#6e5560",
+    "online": "#7ab890",
+    "input": "#3d3035",
+    "border": "#4a3a40",
+    "avatarColors": [
+      "#b87890",
+      "#7ab890",
+      "#78a0c8"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', 'Gill Sans', Optima, system-ui, sans-serif; }\n:root { --font-mono: 'Courier New', Consolas, monospace; }\n:root { --background-primary: #2e2328; }\n:root { --background-secondary: #261c20; }\n:root { --background-secondary-alt: #261c20; }\n:root { --background-secondary-lighter: #2e2328; }\n:root { --background-tertiary: #1e1518; }\n:root { --background-textarea: #2e2328; }\n:root { --background-header-primary: #2e2328; }\n:root { --background-header-primary-hover: #3d3035; }\n:root { --background-header-secondary: #3d3035; }\n:root { --channel-header-background: #2e2328; }\n:root { --background-modifier-hover: #3d3035; }\n:root { --background-modifier-selected: #4a3a40; }\n:root { --background-modifier-accent: #574450; }\n:root { --background-modifier-accent-focus: #6e5560; }\n:root { --guild-list-foreground: #d4a8b4; }\n:root { --brand-primary: #b87890; }\n:root { --brand-secondary: #a06070; }\n:root { --brand-primary-light: #cc96aa; }\n:root { --brand-primary-fill: #2e2328; }\n:root { --status-online: #7ab890; }\n:root { --status-idle: #c8b070; }\n:root { --status-dnd: #c07878; }\n:root { --status-offline: #6e5560; }\n:root { --status-danger: #c07878; }\n:root { --text-primary: #e0c8d0; }\n:root { --text-secondary: #c0a0ac; }\n:root { --text-tertiary: #a08090; }\n:root { --text-primary-muted: #6e5560; }\n:root { --text-chat: #e0c8d0; }\n:root { --text-chat-muted: #a08090; }\n:root { --text-link: #cc96aa; }\n:root { --text-on-brand-primary: #1e1518; }\n:root { --border-color: #4a3a40; }\n:root { --border-color-hover: #6e5560; }\n:root { --border-color-focus: #b87890; }\n:root { --accent-primary: #b87890; }\n:root { --accent-success: #7ab890; }\n:root { --accent-warning: #c8b070; }\n:root { --accent-danger: #c07878; }\n:root { --button-primary-fill: #b87890; }\n:root { --button-primary-active-fill: #a06070; }\n:root { --button-primary-text: #f0e0e8; }\n:root { --button-secondary-fill: #3d3035; }\n:root { --button-secondary-active-fill: #4a3a40; }\n:root { --button-secondary-text: #e0c8d0; }\n:root { --button-danger-fill: #c07878; }\n:root { --button-danger-active-fill: #a06060; }\n:root { --button-danger-text: #f0e0e8; }\n:root { --bg-primary: #2e2328; }\n:root { --bg-secondary: #261c20; }\n:root { --bg-tertiary: #3d3035; }\n:root { --bg-hover: #3d3035; }\n:root { --bg-active: #4a3a40; }\n:root { --bg-code: #3d3035; }\n:root { --bg-code-block: #261c20; }\n:root { --bg-blockquote: #3d3035; }\n:root { --bg-table-header: #4a3a40; }\n:root { --bg-table-row-odd: #2e2328; }\n:root { --bg-table-row-even: #312628; }"
+  },
+  {
+    "name": "Soft Lavender",
+    "tags": [
+      "light",
+      "cute",
+      "soft"
+    ],
+    "bg1": "#f0ecf7",
+    "bg2": "#e6e0f0",
+    "bg3": "#ddd5ec",
+    "sidebar": "#e6e0f0",
+    "accent": "#7a58b0",
+    "accent2": "#6040a0",
+    "text": "#302048",
+    "textMid": "#5a4480",
+    "textDim": "#c0b0da",
+    "online": "#508858",
+    "input": "#d8ceea",
+    "border": "#cfc3e4",
+    "avatarColors": [
+      "#7a58b0",
+      "#508858",
+      "#4878a8"
+    ],
+    "css": ":root { --font-sans: Georgia, 'Times New Roman', serif; }\n:root { --font-mono: Consolas, 'Courier New', monospace; }\n:root { --background-primary: #f0ecf7; }\n:root { --background-secondary: #e6e0f0; }\n:root { --background-secondary-alt: #e6e0f0; }\n:root { --background-secondary-lighter: #f0ecf7; }\n:root { --background-tertiary: #ddd5ec; }\n:root { --background-textarea: #f0ecf7; }\n:root { --background-header-primary: #f0ecf7; }\n:root { --background-header-primary-hover: #d8ceea; }\n:root { --background-header-secondary: #cfc3e4; }\n:root { --channel-header-background: #f0ecf7; }\n:root { --background-modifier-hover: #d8ceea; }\n:root { --background-modifier-selected: #cfc3e4; }\n:root { --background-modifier-accent: #c0b0da; }\n:root { --background-modifier-accent-focus: #aa98ca; }\n:root { --guild-list-foreground: #5a4480; }\n:root { --brand-primary: #7a58b0; }\n:root { --brand-secondary: #6040a0; }\n:root { --brand-primary-light: #9478c8; }\n:root { --brand-primary-fill: #f0ecf7; }\n:root { --status-online: #508858; }\n:root { --status-idle: #a87820; }\n:root { --status-dnd: #a84040; }\n:root { --status-offline: #aa98ca; }\n:root { --status-danger: #a84040; }\n:root { --text-primary: #302048; }\n:root { --text-secondary: #5a4480; }\n:root { --text-tertiary: #7860a0; }\n:root { --text-primary-muted: #aa98ca; }\n:root { --text-chat: #302048; }\n:root { --text-chat-muted: #7860a0; }\n:root { --text-link: #7a58b0; }\n:root { --text-on-brand-primary: #f5f0ff; }\n:root { --border-color: #cfc3e4; }\n:root { --border-color-hover: #aa98ca; }\n:root { --border-color-focus: #7a58b0; }\n:root { --accent-primary: #7a58b0; }\n:root { --accent-success: #508858; }\n:root { --accent-warning: #a87820; }\n:root { --accent-danger: #a84040; }\n:root { --button-primary-fill: #7a58b0; }\n:root { --button-primary-active-fill: #6040a0; }\n:root { --button-primary-text: #f5f0ff; }\n:root { --button-secondary-fill: #cfc3e4; }\n:root { --button-secondary-active-fill: #c0b0da; }\n:root { --button-secondary-text: #302048; }\n:root { --button-danger-fill: #a84040; }\n:root { --button-danger-active-fill: #882c2c; }\n:root { --button-danger-text: #f5f0ff; }\n:root { --bg-primary: #f0ecf7; }\n:root { --bg-secondary: #e6e0f0; }\n:root { --bg-tertiary: #d8ceea; }\n:root { --bg-hover: #d8ceea; }\n:root { --bg-active: #cfc3e4; }\n:root { --bg-code: #d8ceea; }\n:root { --bg-code-block: #e6e0f0; }\n:root { --bg-blockquote: #d8ceea; }\n:root { --bg-table-header: #cfc3e4; }\n:root { --bg-table-row-odd: #f0ecf7; }\n:root { --bg-table-row-even: #ece8f4; }"
+  },
+  {
+    "name": "Honey Milk",
+    "tags": [
+      "light",
+      "cute",
+      "soft"
+    ],
+    "bg1": "#faf4e8",
+    "bg2": "#f2e8d4",
+    "bg3": "#e8d8bc",
+    "sidebar": "#f2e8d4",
+    "accent": "#c07830",
+    "accent2": "#a05e18",
+    "text": "#3c2408",
+    "textMid": "#5c3c18",
+    "textDim": "#bea070",
+    "online": "#4a8840",
+    "input": "#e8d8bc",
+    "border": "#dcc8a8",
+    "avatarColors": [
+      "#c07830",
+      "#4a8840",
+      "#3870a8"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', Optima, Candara, system-ui, sans-serif; }\n:root { --font-mono: Consolas, 'Lucida Console', monospace; }\n:root { --background-primary: #faf4e8; }\n:root { --background-secondary: #f2e8d4; }\n:root { --background-secondary-alt: #f2e8d4; }\n:root { --background-secondary-lighter: #faf4e8; }\n:root { --background-tertiary: #e8d8bc; }\n:root { --background-textarea: #faf4e8; }\n:root { --background-header-primary: #faf4e8; }\n:root { --background-header-primary-hover: #e8d8bc; }\n:root { --background-header-secondary: #dcc8a8; }\n:root { --channel-header-background: #faf4e8; }\n:root { --background-modifier-hover: #e8d8bc; }\n:root { --background-modifier-selected: #dcc8a8; }\n:root { --background-modifier-accent: #ceb890; }\n:root { --background-modifier-accent-focus: #bea070; }\n:root { --guild-list-foreground: #5c3c18; }\n:root { --brand-primary: #c07830; }\n:root { --brand-secondary: #a05e18; }\n:root { --brand-primary-light: #d89050; }\n:root { --brand-primary-fill: #faf4e8; }\n:root { --status-online: #4a8840; }\n:root { --status-idle: #c07830; }\n:root { --status-dnd: #a83838; }\n:root { --status-offline: #bea070; }\n:root { --status-danger: #a83838; }\n:root { --text-primary: #3c2408; }\n:root { --text-secondary: #5c3c18; }\n:root { --text-tertiary: #7c5428; }\n:root { --text-primary-muted: #bea070; }\n:root { --text-chat: #3c2408; }\n:root { --text-chat-muted: #7c5428; }\n:root { --text-link: #c07830; }\n:root { --text-on-brand-primary: #fff8ee; }\n:root { --border-color: #dcc8a8; }\n:root { --border-color-hover: #bea070; }\n:root { --border-color-focus: #c07830; }\n:root { --accent-primary: #c07830; }\n:root { --accent-success: #4a8840; }\n:root { --accent-danger: #a83838; }\n:root { --button-primary-fill: #c07830; }\n:root { --button-primary-active-fill: #a05e18; }\n:root { --button-primary-text: #fff8ee; }\n:root { --button-secondary-fill: #dcc8a8; }\n:root { --button-secondary-active-fill: #ceb890; }\n:root { --button-secondary-text: #3c2408; }\n:root { --button-danger-fill: #a83838; }\n:root { --button-danger-active-fill: #882828; }\n:root { --button-danger-text: #fff8ee; }\n:root { --bg-primary: #faf4e8; }\n:root { --bg-secondary: #f2e8d4; }\n:root { --bg-tertiary: #e8d8bc; }\n:root { --bg-hover: #e8d8bc; }\n:root { --bg-active: #dcc8a8; }\n:root { --bg-code: #e8d8bc; }\n:root { --bg-code-block: #f2e8d4; }\n:root { --bg-blockquote: #e8d8bc; }\n:root { --bg-table-header: #dcc8a8; }\n:root { --bg-table-row-odd: #faf4e8; }\n:root { --bg-table-row-even: #f5eedc; }"
+  },
+  {
+    "name": "Faded Matrix",
+    "tags": [
+      "dark",
+      "tech",
+      "soft"
+    ],
+    "bg1": "#1a1f1a",
+    "bg2": "#141814",
+    "bg3": "#0e120e",
+    "sidebar": "#141814",
+    "accent": "#5a9a5a",
+    "accent2": "#448044",
+    "text": "#a0c8a0",
+    "textMid": "#80a880",
+    "textDim": "#364036",
+    "online": "#5a9a5a",
+    "input": "#222822",
+    "border": "#2c342c",
+    "avatarColors": [
+      "#5a9a5a",
+      "#a04040",
+      "#4080a0"
+    ],
+    "css": ":root { --font-sans: 'Courier New', Consolas, 'Lucida Console', monospace; }\n:root { --font-mono: 'Courier New', Consolas, monospace; }\n:root { --background-primary: #1a1f1a; }\n:root { --background-secondary: #141814; }\n:root { --background-secondary-alt: #141814; }\n:root { --background-secondary-lighter: #1a1f1a; }\n:root { --background-tertiary: #0e120e; }\n:root { --background-textarea: #1a1f1a; }\n:root { --background-header-primary: #1a1f1a; }\n:root { --background-header-primary-hover: #222822; }\n:root { --background-header-secondary: #2c342c; }\n:root { --channel-header-background: #1a1f1a; }\n:root { --background-modifier-hover: #222822; }\n:root { --background-modifier-selected: #2c342c; }\n:root { --background-modifier-accent: #364036; }\n:root { --background-modifier-accent-focus: #445044; }\n:root { --guild-list-foreground: #80b880; }\n:root { --brand-primary: #5a9a5a; }\n:root { --brand-secondary: #448044; }\n:root { --brand-primary-light: #70b070; }\n:root { --brand-primary-fill: #1a1f1a; }\n:root { --status-online: #5a9a5a; }\n:root { --status-idle: #a8a040; }\n:root { --status-dnd: #a04040; }\n:root { --status-offline: #445044; }\n:root { --status-danger: #a04040; }\n:root { --text-primary: #a0c8a0; }\n:root { --text-secondary: #80a880; }\n:root { --text-tertiary: #608860; }\n:root { --text-primary-muted: #445044; }\n:root { --text-chat: #a0c8a0; }\n:root { --text-chat-muted: #608860; }\n:root { --text-link: #70c870; }\n:root { --text-on-brand-primary: #0e120e; }\n:root { --border-color: #2c342c; }\n:root { --border-color-hover: #445044; }\n:root { --border-color-focus: #5a9a5a; }\n:root { --accent-primary: #5a9a5a; }\n:root { --accent-success: #5a9a5a; }\n:root { --accent-warning: #a8a040; }\n:root { --accent-danger: #a04040; }\n:root { --button-primary-fill: #5a9a5a; }\n:root { --button-primary-active-fill: #448044; }\n:root { --button-primary-text: #0e120e; }\n:root { --button-secondary-fill: #2c342c; }\n:root { --button-secondary-active-fill: #364036; }\n:root { --button-secondary-text: #a0c8a0; }\n:root { --button-danger-fill: #a04040; }\n:root { --button-danger-active-fill: #802c2c; }\n:root { --button-danger-text: #f0f0e8; }\n:root { --bg-primary: #1a1f1a; }\n:root { --bg-secondary: #141814; }\n:root { --bg-tertiary: #222822; }\n:root { --bg-hover: #222822; }\n:root { --bg-active: #2c342c; }\n:root { --bg-code: #222822; }\n:root { --bg-code-block: #141814; }\n:root { --bg-blockquote: #222822; }\n:root { --bg-table-header: #2c342c; }\n:root { --bg-table-row-odd: #1a1f1a; }\n:root { --bg-table-row-even: #1c221c; }"
+  },
+  {
+    "name": "Slate Circuit",
+    "tags": [
+      "dark",
+      "tech",
+      "soft"
+    ],
+    "bg1": "#252c32",
+    "bg2": "#1e252a",
+    "bg3": "#171d22",
+    "sidebar": "#1e252a",
+    "accent": "#4c9ab0",
+    "accent2": "#387e94",
+    "text": "#ccdde8",
+    "textMid": "#9ab8cc",
+    "textDim": "#405060",
+    "online": "#52a070",
+    "input": "#2e3840",
+    "border": "#374450",
+    "avatarColors": [
+      "#4c9ab0",
+      "#52a070",
+      "#8870c0"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', 'Segoe UI', system-ui, sans-serif; }\n:root { --font-mono: Consolas, 'Lucida Console', monospace; }\n:root { --background-primary: #252c32; }\n:root { --background-secondary: #1e252a; }\n:root { --background-secondary-alt: #1e252a; }\n:root { --background-secondary-lighter: #252c32; }\n:root { --background-tertiary: #171d22; }\n:root { --background-textarea: #252c32; }\n:root { --background-header-primary: #252c32; }\n:root { --background-header-primary-hover: #2e3840; }\n:root { --background-header-secondary: #374450; }\n:root { --channel-header-background: #252c32; }\n:root { --background-modifier-hover: #2e3840; }\n:root { --background-modifier-selected: #374450; }\n:root { --background-modifier-accent: #405060; }\n:root { --background-modifier-accent-focus: #506070; }\n:root { --guild-list-foreground: #90c0cc; }\n:root { --brand-primary: #4c9ab0; }\n:root { --brand-secondary: #387e94; }\n:root { --brand-primary-light: #60b0c8; }\n:root { --brand-primary-fill: #252c32; }\n:root { --status-online: #52a070; }\n:root { --status-idle: #b0a040; }\n:root { --status-dnd: #b04848; }\n:root { --status-offline: #506070; }\n:root { --status-danger: #b04848; }\n:root { --text-primary: #ccdde8; }\n:root { --text-secondary: #9ab8cc; }\n:root { --text-tertiary: #7090a8; }\n:root { --text-primary-muted: #506070; }\n:root { --text-chat: #ccdde8; }\n:root { --text-chat-muted: #7090a8; }\n:root { --text-link: #60c0d8; }\n:root { --text-on-brand-primary: #171d22; }\n:root { --border-color: #374450; }\n:root { --border-color-hover: #506070; }\n:root { --border-color-focus: #4c9ab0; }\n:root { --accent-primary: #4c9ab0; }\n:root { --accent-success: #52a070; }\n:root { --accent-warning: #b0a040; }\n:root { --accent-danger: #b04848; }\n:root { --button-primary-fill: #4c9ab0; }\n:root { --button-primary-active-fill: #387e94; }\n:root { --button-primary-text: #f0faff; }\n:root { --button-secondary-fill: #374450; }\n:root { --button-secondary-active-fill: #405060; }\n:root { --button-secondary-text: #ccdde8; }\n:root { --button-danger-fill: #b04848; }\n:root { --button-danger-active-fill: #8c3434; }\n:root { --button-danger-text: #f0faff; }\n:root { --bg-primary: #252c32; }\n:root { --bg-secondary: #1e252a; }\n:root { --bg-tertiary: #2e3840; }\n:root { --bg-hover: #2e3840; }\n:root { --bg-active: #374450; }\n:root { --bg-code: #2e3840; }\n:root { --bg-code-block: #1e252a; }\n:root { --bg-blockquote: #2e3840; }\n:root { --bg-table-header: #374450; }\n:root { --bg-table-row-odd: #252c32; }\n:root { --bg-table-row-even: #282f36; }"
+  },
+  {
+    "name": "Warm Terminal",
+    "tags": [
+      "dark",
+      "tech",
+      "soft"
+    ],
+    "bg1": "#211e18",
+    "bg2": "#1a1812",
+    "bg3": "#13120d",
+    "sidebar": "#1a1812",
+    "accent": "#b08030",
+    "accent2": "#906818",
+    "text": "#e0cc98",
+    "textMid": "#c0a870",
+    "textDim": "#464030",
+    "online": "#6a9848",
+    "input": "#2e2a20",
+    "border": "#3a3528",
+    "avatarColors": [
+      "#b08030",
+      "#6a9848",
+      "#4880a8"
+    ],
+    "css": ":root { --font-sans: Consolas, 'Lucida Console', 'Courier New', monospace; }\n:root { --font-mono: Consolas, 'Courier New', monospace; }\n:root { --background-primary: #211e18; }\n:root { --background-secondary: #1a1812; }\n:root { --background-secondary-alt: #1a1812; }\n:root { --background-secondary-lighter: #211e18; }\n:root { --background-tertiary: #13120d; }\n:root { --background-textarea: #211e18; }\n:root { --background-header-primary: #211e18; }\n:root { --background-header-primary-hover: #2e2a20; }\n:root { --background-header-secondary: #3a3528; }\n:root { --channel-header-background: #211e18; }\n:root { --background-modifier-hover: #2e2a20; }\n:root { --background-modifier-selected: #3a3528; }\n:root { --background-modifier-accent: #464030; }\n:root { --background-modifier-accent-focus: #5a5238; }\n:root { --guild-list-foreground: #c8a048; }\n:root { --brand-primary: #b08030; }\n:root { --brand-secondary: #906818; }\n:root { --brand-primary-light: #c89848; }\n:root { --brand-primary-fill: #211e18; }\n:root { --status-online: #6a9848; }\n:root { --status-idle: #c8a048; }\n:root { --status-dnd: #a84040; }\n:root { --status-offline: #5a5238; }\n:root { --status-danger: #a84040; }\n:root { --text-primary: #e0cc98; }\n:root { --text-secondary: #c0a870; }\n:root { --text-tertiary: #a08848; }\n:root { --text-primary-muted: #5a5238; }\n:root { --text-chat: #e0cc98; }\n:root { --text-chat-muted: #a08848; }\n:root { --text-link: #c89848; }\n:root { --text-on-brand-primary: #13120d; }\n:root { --border-color: #3a3528; }\n:root { --border-color-hover: #5a5238; }\n:root { --border-color-focus: #b08030; }\n:root { --accent-primary: #b08030; }\n:root { --accent-success: #6a9848; }\n:root { --accent-warning: #c8a048; }\n:root { --accent-danger: #a84040; }\n:root { --button-primary-fill: #b08030; }\n:root { --button-primary-active-fill: #906818; }\n:root { --button-primary-text: #f5eedc; }\n:root { --button-secondary-fill: #3a3528; }\n:root { --button-secondary-active-fill: #464030; }\n:root { --button-secondary-text: #e0cc98; }\n:root { --button-danger-fill: #a84040; }\n:root { --button-danger-active-fill: #882c2c; }\n:root { --button-danger-text: #f5eedc; }\n:root { --bg-primary: #211e18; }\n:root { --bg-secondary: #1a1812; }\n:root { --bg-tertiary: #2e2a20; }\n:root { --bg-hover: #2e2a20; }\n:root { --bg-active: #3a3528; }\n:root { --bg-code: #2e2a20; }\n:root { --bg-code-block: #1a1812; }\n:root { --bg-blockquote: #2e2a20; }\n:root { --bg-table-header: #3a3528; }\n:root { --bg-table-row-odd: #211e18; }\n:root { --bg-table-row-even: #24211b; }"
+  },
+  {
+    "name": "Ink & Paper",
+    "tags": [
+      "light",
+      "tech",
+      "soft"
+    ],
+    "bg1": "#f4f0e8",
+    "bg2": "#ebe6dc",
+    "bg3": "#ddd8cc",
+    "sidebar": "#ebe6dc",
+    "accent": "#3c3018",
+    "accent2": "#282010",
+    "text": "#1c1808",
+    "textMid": "#3c3018",
+    "textDim": "#c0b898",
+    "online": "#386828",
+    "input": "#d8d0c0",
+    "border": "#ccc4b0",
+    "avatarColors": [
+      "#3c3018",
+      "#386828",
+      "#2c5888"
+    ],
+    "css": ":root { --font-sans: Georgia, 'Palatino Linotype', Palatino, serif; }\n:root { --font-mono: Consolas, 'Courier New', monospace; }\n:root { --background-primary: #f4f0e8; }\n:root { --background-secondary: #ebe6dc; }\n:root { --background-secondary-alt: #ebe6dc; }\n:root { --background-secondary-lighter: #f4f0e8; }\n:root { --background-tertiary: #ddd8cc; }\n:root { --background-textarea: #f4f0e8; }\n:root { --background-header-primary: #f4f0e8; }\n:root { --background-header-primary-hover: #d8d0c0; }\n:root { --background-header-secondary: #ccc4b0; }\n:root { --channel-header-background: #f4f0e8; }\n:root { --background-modifier-hover: #d8d0c0; }\n:root { --background-modifier-selected: #ccc4b0; }\n:root { --background-modifier-accent: #c0b898; }\n:root { --background-modifier-accent-focus: #b0a880; }\n:root { --guild-list-foreground: #282010; }\n:root { --brand-primary: #3c3018; }\n:root { --brand-secondary: #282010; }\n:root { --brand-primary-light: #584828; }\n:root { --brand-primary-fill: #f4f0e8; }\n:root { --status-online: #386828; }\n:root { --status-idle: #886820; }\n:root { --status-dnd: #883030; }\n:root { --status-offline: #b0a880; }\n:root { --status-danger: #883030; }\n:root { --text-primary: #1c1808; }\n:root { --text-secondary: #3c3018; }\n:root { --text-tertiary: #584828; }\n:root { --text-primary-muted: #b0a880; }\n:root { --text-chat: #1c1808; }\n:root { --text-chat-muted: #706050; }\n:root { --text-link: #2c5888; }\n:root { --text-on-brand-primary: #f4f0e8; }\n:root { --border-color: #ccc4b0; }\n:root { --border-color-hover: #b0a880; }\n:root { --border-color-focus: #3c3018; }\n:root { --accent-primary: #3c3018; }\n:root { --accent-success: #386828; }\n:root { --accent-warning: #886820; }\n:root { --accent-danger: #883030; }\n:root { --button-primary-fill: #3c3018; }\n:root { --button-primary-active-fill: #282010; }\n:root { --button-primary-text: #f4f0e8; }\n:root { --button-secondary-fill: #ccc4b0; }\n:root { --button-secondary-active-fill: #c0b898; }\n:root { --button-secondary-text: #1c1808; }\n:root { --button-danger-fill: #883030; }\n:root { --button-danger-active-fill: #6a2020; }\n:root { --button-danger-text: #f4f0e8; }\n:root { --bg-primary: #f4f0e8; }\n:root { --bg-secondary: #ebe6dc; }\n:root { --bg-tertiary: #d8d0c0; }\n:root { --bg-hover: #d8d0c0; }\n:root { --bg-active: #ccc4b0; }\n:root { --bg-code: #d8d0c0; }\n:root { --bg-code-block: #ebe6dc; }\n:root { --bg-blockquote: #d8d0c0; }\n:root { --bg-table-header: #ccc4b0; }\n:root { --bg-table-row-odd: #f4f0e8; }\n:root { --bg-table-row-even: #eee9e0; }"
+  },
+  {
+    "name": "Mossy Stone",
+    "tags": [
+      "dark",
+      "nature",
+      "soft"
+    ],
+    "bg1": "#222a20",
+    "bg2": "#1a2218",
+    "bg3": "#141c12",
+    "sidebar": "#1a2218",
+    "accent": "#60985a",
+    "accent2": "#4c7c44",
+    "text": "#c8e0c0",
+    "textMid": "#a0c098",
+    "textDim": "#40503a",
+    "online": "#60985a",
+    "input": "#2c3828",
+    "border": "#364430",
+    "avatarColors": [
+      "#60985a",
+      "#a05050",
+      "#4878a0"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', Optima, system-ui, sans-serif; }\n:root { --font-mono: Consolas, 'Courier New', monospace; }\n:root { --background-primary: #222a20; }\n:root { --background-secondary: #1a2218; }\n:root { --background-secondary-alt: #1a2218; }\n:root { --background-secondary-lighter: #222a20; }\n:root { --background-tertiary: #141c12; }\n:root { --background-textarea: #222a20; }\n:root { --background-header-primary: #222a20; }\n:root { --background-header-primary-hover: #2c3828; }\n:root { --background-header-secondary: #364430; }\n:root { --channel-header-background: #222a20; }\n:root { --background-modifier-hover: #2c3828; }\n:root { --background-modifier-selected: #364430; }\n:root { --background-modifier-accent: #40503a; }\n:root { --background-modifier-accent-focus: #506444; }\n:root { --guild-list-foreground: #a0c898; }\n:root { --brand-primary: #60985a; }\n:root { --brand-secondary: #4c7c44; }\n:root { --brand-primary-light: #78b070; }\n:root { --brand-primary-fill: #222a20; }\n:root { --status-online: #60985a; }\n:root { --status-idle: #b0a040; }\n:root { --status-dnd: #a05050; }\n:root { --status-offline: #506444; }\n:root { --status-danger: #a05050; }\n:root { --text-primary: #c8e0c0; }\n:root { --text-secondary: #a0c098; }\n:root { --text-tertiary: #80a078; }\n:root { --text-primary-muted: #506444; }\n:root { --text-chat: #c8e0c0; }\n:root { --text-chat-muted: #80a078; }\n:root { --text-link: #78c070; }\n:root { --text-on-brand-primary: #141c12; }\n:root { --border-color: #364430; }\n:root { --border-color-hover: #506444; }\n:root { --border-color-focus: #60985a; }\n:root { --accent-primary: #60985a; }\n:root { --accent-success: #60985a; }\n:root { --accent-warning: #b0a040; }\n:root { --accent-danger: #a05050; }\n:root { --button-primary-fill: #60985a; }\n:root { --button-primary-active-fill: #4c7c44; }\n:root { --button-primary-text: #141c12; }\n:root { --button-secondary-fill: #364430; }\n:root { --button-secondary-active-fill: #40503a; }\n:root { --button-secondary-text: #c8e0c0; }\n:root { --button-danger-fill: #a05050; }\n:root { --button-danger-active-fill: #803838; }\n:root { --button-danger-text: #f0f8ee; }\n:root { --bg-primary: #222a20; }\n:root { --bg-secondary: #1a2218; }\n:root { --bg-tertiary: #2c3828; }\n:root { --bg-hover: #2c3828; }\n:root { --bg-active: #364430; }\n:root { --bg-code: #2c3828; }\n:root { --bg-code-block: #1a2218; }\n:root { --bg-blockquote: #2c3828; }\n:root { --bg-table-header: #364430; }\n:root { --bg-table-row-odd: #222a20; }\n:root { --bg-table-row-even: #252d22; }"
+  },
+  {
+    "name": "Driftwood Shore",
+    "tags": [
+      "dark",
+      "nature",
+      "soft"
+    ],
+    "bg1": "#282e32",
+    "bg2": "#202529",
+    "bg3": "#181c20",
+    "sidebar": "#202529",
+    "accent": "#5888a0",
+    "accent2": "#446e88",
+    "text": "#d0dde4",
+    "textMid": "#a8bcc8",
+    "textDim": "#495760",
+    "online": "#5a9878",
+    "input": "#333c42",
+    "border": "#3e4a52",
+    "avatarColors": [
+      "#5888a0",
+      "#5a9878",
+      "#7870a0"
+    ],
+    "css": ":root { --font-sans: 'Trebuchet MS', Optima, Candara, system-ui, sans-serif; }\n:root { --font-mono: Consolas, 'Courier New', monospace; }\n:root { --background-primary: #282e32; }\n:root { --background-secondary: #202529; }\n:root { --background-secondary-alt: #202529; }\n:root { --background-secondary-lighter: #282e32; }\n:root { --background-tertiary: #181c20; }\n:root { --background-textarea: #282e32; }\n:root { --background-header-primary: #282e32; }\n:root { --background-header-primary-hover: #333c42; }\n:root { --background-header-secondary: #3e4a52; }\n:root { --channel-header-background: #282e32; }\n:root { --background-modifier-hover: #333c42; }\n:root { --background-modifier-selected: #3e4a52; }\n:root { --background-modifier-accent: #495760; }\n:root { --background-modifier-accent-focus: #586878; }\n:root { --guild-list-foreground: #a8c0cc; }\n:root { --brand-primary: #5888a0; }\n:root { --brand-secondary: #446e88; }\n:root { --brand-primary-light: #6898b0; }\n:root { --brand-primary-fill: #282e32; }\n:root { --status-online: #5a9878; }\n:root { --status-idle: #b0a050; }\n:root { --status-dnd: #a85050; }\n:root { --status-offline: #586878; }\n:root { --status-danger: #a85050; }\n:root { --text-primary: #d0dde4; }\n:root { --text-secondary: #a8bcc8; }\n:root { --text-tertiary: #8098a8; }\n:root { --text-primary-muted: #586878; }\n:root { --text-chat: #d0dde4; }\n:root { --text-chat-muted: #8098a8; }\n:root { --text-link: #6898b0; }\n:root { --text-on-brand-primary: #f0f8ff; }\n:root { --border-color: #3e4a52; }\n:root { --border-color-hover: #586878; }\n:root { --border-color-focus: #5888a0; }\n:root { --accent-primary: #5888a0; }\n:root { --accent-success: #5a9878; }\n:root { --accent-warning: #b0a050; }\n:root { --accent-danger: #a85050; }\n:root { --button-primary-fill: #5888a0; }\n:root { --button-primary-active-fill: #446e88; }\n:root { --button-primary-text: #f0f8ff; }\n:root { --button-secondary-fill: #3e4a52; }\n:root { --button-secondary-active-fill: #495760; }\n:root { --button-secondary-text: #d0dde4; }\n:root { --button-danger-fill: #a85050; }\n:root { --button-danger-active-fill: #883838; }\n:root { --button-danger-text: #f0f8ff; }\n:root { --bg-primary: #282e32; }\n:root { --bg-secondary: #202529; }\n:root { --bg-tertiary: #333c42; }\n:root { --bg-hover: #333c42; }\n:root { --bg-active: #3e4a52; }\n:root { --bg-code: #333c42; }\n:root { --bg-code-block: #202529; }\n:root { --bg-blockquote: #333c42; }\n:root { --bg-table-header: #3e4a52; }\n:root { --bg-table-row-odd: #282e32; }\n:root { --bg-table-row-even: #2b3236; }"
+  },
+  {
+    "name": "Overcast Pine",
+    "tags": [
+      "dark",
+      "nature",
+      "soft"
+    ],
+    "bg1": "#20262a",
+    "bg2": "#191f22",
+    "bg3": "#121718",
+    "sidebar": "#191f22",
+    "accent": "#508870",
+    "accent2": "#3c7058",
+    "text": "#c8d8cc",
+    "textMid": "#9ab8a4",
+    "textDim": "#3e5058",
+    "online": "#508870",
+    "input": "#2a3438",
+    "border": "#344248",
+    "avatarColors": [
+      "#508870",
+      "#a09840",
+      "#487890"
+    ],
+    "css": ":root { --font-sans: Georgia, 'Times New Roman', serif; }\n:root { --font-mono: Consolas, 'Lucida Console', monospace; }\n:root { --background-primary: #20262a; }\n:root { --background-secondary: #191f22; }\n:root { --background-secondary-alt: #191f22; }\n:root { --background-secondary-lighter: #20262a; }\n:root { --background-tertiary: #121718; }\n:root { --background-textarea: #20262a; }\n:root { --background-header-primary: #20262a; }\n:root { --background-header-primary-hover: #2a3438; }\n:root { --background-header-secondary: #344248; }\n:root { --channel-header-background: #20262a; }\n:root { --background-modifier-hover: #2a3438; }\n:root { --background-modifier-selected: #344248; }\n:root { --background-modifier-accent: #3e5058; }\n:root { --background-modifier-accent-focus: #4e6068; }\n:root { --guild-list-foreground: #98bca8; }\n:root { --brand-primary: #508870; }\n:root { --brand-secondary: #3c7058; }\n:root { --brand-primary-light: #68a086; }\n:root { --brand-primary-fill: #20262a; }\n:root { --status-online: #508870; }\n:root { --status-idle: #a09840; }\n:root { --status-dnd: #a04848; }\n:root { --status-offline: #4e6068; }\n:root { --status-danger: #a04848; }\n:root { --text-primary: #c8d8cc; }\n:root { --text-secondary: #9ab8a4; }\n:root { --text-tertiary: #6e9880; }\n:root { --text-primary-muted: #4e6068; }\n:root { --text-chat: #c8d8cc; }\n:root { --text-chat-muted: #6e9880; }\n:root { --text-link: #68b088; }\n:root { --text-on-brand-primary: #121718; }\n:root { --border-color: #344248; }\n:root { --border-color-hover: #4e6068; }\n:root { --border-color-focus: #508870; }\n:root { --accent-primary: #508870; }\n:root { --accent-success: #508870; }\n:root { --accent-warning: #a09840; }\n:root { --accent-danger: #a04848; }\n:root { --button-primary-fill: #508870; }\n:root { --button-primary-active-fill: #3c7058; }\n:root { --button-primary-text: #f0f8f4; }\n:root { --button-secondary-fill: #344248; }\n:root { --button-secondary-active-fill: #3e5058; }\n:root { --button-secondary-text: #c8d8cc; }\n:root { --button-danger-fill: #a04848; }\n:root { --button-danger-active-fill: #803434; }\n:root { --button-danger-text: #f0f8f4; }\n:root { --bg-primary: #20262a; }\n:root { --bg-secondary: #191f22; }\n:root { --bg-tertiary: #2a3438; }\n:root { --bg-hover: #2a3438; }\n:root { --bg-active: #344248; }\n:root { --bg-code: #2a3438; }\n:root { --bg-code-block: #191f22; }\n:root { --bg-blockquote: #2a3438; }\n:root { --bg-table-header: #344248; }\n:root { --bg-table-row-odd: #20262a; }\n:root { --bg-table-row-even: #222a2e; }"
+  }
+]
