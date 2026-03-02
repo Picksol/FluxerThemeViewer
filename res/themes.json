@@ -125,58 +125,288 @@
     "css": ":root { --font-sans: 'Trebuchet MS', 'Gill Sans', Optima, system-ui, sans-serif; }\n:root { --font-mono: 'Fira Code', 'Courier New', monospace; }\n:root { --background-primary: #fdf0f3; }\n:root { --background-secondary: #f7e0e6; }\n:root { --background-secondary-alt: #f7e0e6; }\n:root { --background-secondary-lighter: #fdf0f3; }\n:root { --background-tertiary: #f0cdd7; }\n:root { --background-textarea: #fdf0f3; }\n:root { --background-header-primary: #fdf0f3; }\n:root { --background-header-primary-hover: #f5dde5; }\n:root { --background-header-secondary: #ecc9d4; }\n:root { --channel-header-background: #fdf0f3; }\n:root { --background-modifier-hover: #f5dde5; }\n:root { --background-modifier-selected: #ecc9d4; }\n:root { --background-modifier-accent: #e2b5c3; }\n:root { --background-modifier-accent-focus: #d499ae; }\n:root { --guild-list-foreground: #7a3d52; }\n:root { --brand-primary: #d45f7f; }\n:root { --brand-secondary: #e87fa0; }\n:root { --brand-primary-light: #f0a0bc; }\n:root { --brand-primary-fill: #fdf0f3; }\n:root { --status-online: #78c98a; }\n:root { --status-idle: #e8c97a; }\n:root { --status-dnd: #e87a7a; }\n:root { --status-offline: #c4a0ae; }\n:root { --status-danger: #e87a7a; }\n:root { --text-primary: #5a2d3f; }\n:root { --text-secondary: #7a3d52; }\n:root { --text-tertiary: #9a5068; }\n:root { --text-primary-muted: #c4a0ae; }\n:root { --text-chat: #5a2d3f; }\n:root { --text-chat-muted: #9a5068; }\n:root { --text-link: #d45f7f; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --border-color: #ecc9d4; }\n:root { --border-color-hover: #d499ae; }\n:root { --border-color-focus: #d45f7f; }\n:root { --accent-primary: #d45f7f; }\n:root { --accent-success: #78c98a; }\n:root { --accent-warning: #e8c97a; }\n:root { --accent-danger: #e87a7a; }\n:root { --button-primary-fill: #d45f7f; }\n:root { --button-primary-active-fill: #c04a6a; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #ecc9d4; }\n:root { --button-secondary-active-fill: #e2b5c3; }\n:root { --button-secondary-text: #5a2d3f; }\n:root { --button-danger-fill: #e87a7a; }\n:root { --button-danger-active-fill: #d06060; }\n:root { --button-danger-text: #ffffff; }\n:root { --bg-primary: #fdf0f3; }\n:root { --bg-secondary: #f7e0e6; }\n:root { --bg-tertiary: #f5dde5; }\n:root { --bg-hover: #f5dde5; }\n:root { --bg-active: #ecc9d4; }\n:root { --bg-code: #f5dde5; }\n:root { --bg-code-block: #f0cdd7; }\n:root { --bg-blockquote: #f5dde5; }\n:root { --bg-table-header: #ecc9d4; }\n:root { --bg-table-row-odd: #fdf0f3; }\n:root { --bg-table-row-even: #faeef2; }"
   },
   {
-  "name": "Cherry Tree",
-  "tags": ["light", "cute", "pastel"],
-  "bg1": "#fff6f9",
-  "bg2": "#ffe9f0",
-  "bg3": "#ffd6e4",
-  "sidebar": "#ffe9f0",
-  "accent": "#ff6f9f",
-  "accent2": "#ff8fb3",
-  "text": "#6e2c44",
-  "textMid": "#a14b6b",
-  "textDim": "#c06a86",
-  "online": "#7ed7a6",
-  "input": "#fff6f9",
-  "border": "#ffd6e4",
-  "avatarColors": ["#ff6f9f", "#ffb3cc", "#ffc2d6"],
-  "css": "@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Quicksand:wght@400;500;600;700&display=swap');\n\n:root { --font-sans: 'Quicksand', system-ui, sans-serif; }\n:root { --font-mono: 'Cherry Bomb One', 'Courier New', monospace; }\n\n:root { --background-primary: #fff6f9; }\n:root { --background-secondary: #ffe9f0; }\n:root { --background-secondary-alt: #ffe9f0; }\n:root { --background-secondary-lighter: #fff6f9; }\n:root { --background-tertiary: #ffd6e4; }\n:root { --background-textarea: #fff6f9; }\n:root { --background-header-primary: #fff6f9; }\n:root { --background-header-primary-hover: #ffe3ec; }\n:root { --background-header-secondary: #ffd6e4; }\n:root { --channel-header-background: #fff6f9; }\n:root { --background-modifier-hover: #ffe3ec; }\n:root { --background-modifier-selected: #ffd6e4; }\n:root { --background-modifier-accent: #ffc2d6; }\n:root { --background-modifier-accent-focus: #ffabc7; }\n:root { --guild-list-foreground: #a14b6b; }\n\n:root { --brand-primary: #ff6f9f; }\n:root { --brand-secondary: #ff8fb3; }\n:root { --brand-primary-light: #ffb3cc; }\n:root { --brand-primary-fill: #fff6f9; }\n\n:root { --status-online: #7ed7a6; }\n:root { --status-idle: #ffe08a; }\n:root { --status-dnd: #ff8a8a; }\n:root { --status-offline: #d4a5b5; }\n:root { --status-danger: #ff8a8a; }\n\n:root { --text-primary: #6e2c44; }\n:root { --text-secondary: #a14b6b; }\n:root { --text-tertiary: #c06a86; }\n:root { --text-primary-muted: #d4a5b5; }\n:root { --text-chat: #6e2c44; }\n:root { --text-chat-muted: #c06a86; }\n:root { --text-link: #ff6f9f; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --text-tertiary-muted: #d4a5b5; }\n:root { --text-tertiary-secondary: #b98397; }\n\n:root { --border-color: #ffd6e4; }\n:root { --border-color-hover: #ffabc7; }\n:root { --border-color-focus: #ff6f9f; }\n\n:root { --accent-primary: #ff6f9f; }\n:root { --accent-success: #7ed7a6; }\n:root { --accent-warning: #ffe08a; }\n:root { --accent-danger: #ff8a8a; }\n:root { --accent-info: #8ec5ff; }\n:root { --accent-purple: #c59aff; }\n\n:root { --bg-primary: #fff6f9; }\n:root { --bg-secondary: #ffe9f0; }\n:root { --bg-tertiary: #ffe3ec; }\n:root { --bg-hover: #ffe3ec; }\n:root { --bg-active: #ffd6e4; }\n\n:root { --bg-code: #ffe3ec; }\n:root { --bg-code-block: #ffd6e4; }\n:root { --bg-blockquote: #ffe3ec; }\n:root { --bg-table-header: #ffd6e4; }\n:root { --bg-table-row-odd: #fff6f9; }\n:root { --bg-table-row-even: #fff0f5; }"
+    "name": "Cherry Tree",
+    "tags": [
+      "light",
+      "cute",
+      "pastel"
+    ],
+    "bg1": "#fff6f9",
+    "bg2": "#ffe9f0",
+    "bg3": "#ffd6e4",
+    "sidebar": "#ffe9f0",
+    "accent": "#ff6f9f",
+    "accent2": "#ff8fb3",
+    "text": "#6e2c44",
+    "textMid": "#a14b6b",
+    "textDim": "#c06a86",
+    "online": "#7ed7a6",
+    "input": "#fff6f9",
+    "border": "#ffd6e4",
+    "avatarColors": [
+      "#ff6f9f",
+      "#ffb3cc",
+      "#ffc2d6"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Quicksand:wght@400;500;600;700&display=swap');\n\n:root { --font-sans: 'Quicksand', system-ui, sans-serif; }\n:root { --font-mono: 'Cherry Bomb One', 'Courier New', monospace; }\n\n:root { --background-primary: #fff6f9; }\n:root { --background-secondary: #ffe9f0; }\n:root { --background-secondary-alt: #ffe9f0; }\n:root { --background-secondary-lighter: #fff6f9; }\n:root { --background-tertiary: #ffd6e4; }\n:root { --background-textarea: #fff6f9; }\n:root { --background-header-primary: #fff6f9; }\n:root { --background-header-primary-hover: #ffe3ec; }\n:root { --background-header-secondary: #ffd6e4; }\n:root { --channel-header-background: #fff6f9; }\n:root { --background-modifier-hover: #ffe3ec; }\n:root { --background-modifier-selected: #ffd6e4; }\n:root { --background-modifier-accent: #ffc2d6; }\n:root { --background-modifier-accent-focus: #ffabc7; }\n:root { --guild-list-foreground: #a14b6b; }\n\n:root { --brand-primary: #ff6f9f; }\n:root { --brand-secondary: #ff8fb3; }\n:root { --brand-primary-light: #ffb3cc; }\n:root { --brand-primary-fill: #fff6f9; }\n\n:root { --status-online: #7ed7a6; }\n:root { --status-idle: #ffe08a; }\n:root { --status-dnd: #ff8a8a; }\n:root { --status-offline: #d4a5b5; }\n:root { --status-danger: #ff8a8a; }\n\n:root { --text-primary: #6e2c44; }\n:root { --text-secondary: #a14b6b; }\n:root { --text-tertiary: #c06a86; }\n:root { --text-primary-muted: #d4a5b5; }\n:root { --text-chat: #6e2c44; }\n:root { --text-chat-muted: #c06a86; }\n:root { --text-link: #ff6f9f; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --text-tertiary-muted: #d4a5b5; }\n:root { --text-tertiary-secondary: #b98397; }\n\n:root { --border-color: #ffd6e4; }\n:root { --border-color-hover: #ffabc7; }\n:root { --border-color-focus: #ff6f9f; }\n\n:root { --accent-primary: #ff6f9f; }\n:root { --accent-success: #7ed7a6; }\n:root { --accent-warning: #ffe08a; }\n:root { --accent-danger: #ff8a8a; }\n:root { --accent-info: #8ec5ff; }\n:root { --accent-purple: #c59aff; }\n\n:root { --bg-primary: #fff6f9; }\n:root { --bg-secondary: #ffe9f0; }\n:root { --bg-tertiary: #ffe3ec; }\n:root { --bg-hover: #ffe3ec; }\n:root { --bg-active: #ffd6e4; }\n\n:root { --bg-code: #ffe3ec; }\n:root { --bg-code-block: #ffd6e4; }\n:root { --bg-blockquote: #ffe3ec; }\n:root { --bg-table-header: #ffd6e4; }\n:root { --bg-table-row-odd: #fff6f9; }\n:root { --bg-table-row-even: #fff0f5; }"
   },
   {
-  "name": "Neo-Arcade",
-  "tags": ["dark", "retro", "neon"],
-  "bg1": "#0f111a",
-  "bg2": "#151826",
-  "bg3": "#1d2133",
-  "sidebar": "#151826",
-  "accent": "#6c7cff",
-  "accent2": "#9f75ff",
-  "text": "#e6e9ff",
-  "textMid": "#aab0ff",
-  "textDim": "#7f86b6",
-  "online": "#00d1a7",
-  "input": "#0f111a",
-  "border": "#262b44",
-  "avatarColors": ["#6c7cff", "#9f75ff", "#4cc9f0"],
-  "css": "@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@400;500;600;700&display=swap');\n\n:root { --font-sans: 'Space Grotesk', system-ui, sans-serif; }\n:root { --font-mono: 'Bungee', 'Courier New', monospace; }\n\n:root { --background-primary: #0f111a; }\n:root { --background-secondary: #151826; }\n:root { --background-tertiary: #1d2133; }\n:root { --background-modifier-hover: #1a1f30; }\n\n:root { --brand-primary: #6c7cff; }\n:root { --brand-secondary: #9f75ff; }\n\n:root { --text-primary: #e6e9ff; }\n:root { --text-secondary: #aab0ff; }\n:root { --text-tertiary: #7f86b6; }\n\n:root { --border-color: #262b44; }\n\n:root { --bg-primary: #0f111a; }\n:root { --bg-secondary: #151826; }\n:root { --bg-tertiary: #1a1f30; }\n:root { --bg-hover: #1a1f30; }\n:root { --bg-active: #1d2133; }"
+    "name": "Neo-Arcade",
+    "tags": [
+      "dark",
+      "retro",
+      "neon"
+    ],
+    "bg1": "#0f111a",
+    "bg2": "#151826",
+    "bg3": "#1d2133",
+    "sidebar": "#151826",
+    "accent": "#6c7cff",
+    "accent2": "#9f75ff",
+    "text": "#e6e9ff",
+    "textMid": "#aab0ff",
+    "textDim": "#7f86b6",
+    "online": "#00d1a7",
+    "input": "#0f111a",
+    "border": "#262b44",
+    "avatarColors": [
+      "#6c7cff",
+      "#9f75ff",
+      "#4cc9f0"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Space+Grotesk:wght@400;500;600;700&display=swap');\n\n:root { --font-sans: 'Space Grotesk', system-ui, sans-serif; }\n:root { --font-mono: 'Bungee', 'Courier New', monospace; }\n\n:root { --background-primary: #0f111a; }\n:root { --background-secondary: #151826; }\n:root { --background-tertiary: #1d2133; }\n:root { --background-modifier-hover: #1a1f30; }\n\n:root { --brand-primary: #6c7cff; }\n:root { --brand-secondary: #9f75ff; }\n\n:root { --text-primary: #e6e9ff; }\n:root { --text-secondary: #aab0ff; }\n:root { --text-tertiary: #7f86b6; }\n\n:root { --border-color: #262b44; }\n\n:root { --bg-primary: #0f111a; }\n:root { --bg-secondary: #151826; }\n:root { --bg-tertiary: #1a1f30; }\n:root { --bg-hover: #1a1f30; }\n:root { --bg-active: #1d2133; }"
   },
   {
-  "name": "Dusk Dandelion",
-  "tags": ["light", "elegant", "editorial"],
-  "bg1": "#f8f4f4",
-  "bg2": "#efe7e7",
-  "bg3": "#e4d6d6",
-  "sidebar": "#efe7e7",
-  "accent": "#b07676",
-  "accent2": "#c48b8b",
-  "text": "#3e2c2c",
-  "textMid": "#6a4a4a",
-  "textDim": "#8a6767",
-  "online": "#7fbf9f",
-  "input": "#f8f4f4",
-  "border": "#e4d6d6",
-  "avatarColors": ["#b07676", "#d6a5a5", "#c48b8b"],
-  "css": "@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap');\n\n:root { --font-sans: 'DM Sans', system-ui, sans-serif; }\n:root { --font-mono: 'Cormorant Garamond', 'Courier New', monospace; }\n\n:root { --background-primary: #f8f4f4; }\n:root { --background-secondary: #efe7e7; }\n:root { --background-secondary-alt: #efe7e7; }\n:root { --background-secondary-lighter: #f8f4f4; }\n:root { --background-tertiary: #e4d6d6; }\n:root { --background-header-primary: #f8f4f4; }\n:root { --background-header-primary-hover: #ece2e2; }\n:root { --background-modifier-hover: #ece2e2; }\n:root { --background-modifier-selected: #e4d6d6; }\n\n:root { --brand-primary: #b07676; }\n:root { --brand-secondary: #c48b8b; }\n\n:root { --text-primary: #3e2c2c; }\n:root { --text-secondary: #6a4a4a; }\n:root { --text-tertiary: #8a6767; }\n\n:root { --border-color: #e4d6d6; }\n\n:root { --bg-primary: #f8f4f4; }\n:root { --bg-secondary: #efe7e7; }\n:root { --bg-tertiary: #ece2e2; }\n:root { --bg-hover: #ece2e2; }\n:root { --bg-active: #e4d6d6; }"
+    "name": "VelvetNoir",
+    "tags": [
+      "dark",
+      "fancy",
+      "elegant"
+    ],
+    "bg1": "#141214",
+    "bg2": "#1c191d",
+    "bg3": "#26222a",
+    "sidebar": "#1c191d",
+    "accent": "#d4a574",
+    "accent2": "#e6c79c",
+    "text": "#f5efe6",
+    "textMid": "#d8cfc3",
+    "textDim": "#9c9286",
+    "online": "#7ed7a6",
+    "input": "#141214",
+    "border": "#2c2730",
+    "avatarColors": [
+      "#d4a574",
+      "#e6c79c",
+      "#b48ead"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&family=Libre+Franklin:wght@400;500;600&display=swap');\n\n:root { --font-sans: 'Libre Franklin', system-ui, sans-serif; }\n:root { --font-mono: 'Playfair Display SC', serif; }\n\n:root { --background-primary: #141214; }\n:root { --background-secondary: #1c191d; }\n:root { --background-tertiary: #26222a; }\n:root { --background-modifier-hover: #211d24; }\n\n:root { --brand-primary: #d4a574; }\n:root { --brand-secondary: #e6c79c; }\n\n:root { --text-primary: #f5efe6; }\n:root { --text-secondary: #d8cfc3; }\n:root { --text-tertiary: #9c9286; }\n\n:root { --border-color: #2c2730; }\n\n:root { --bg-primary: #141214; }\n:root { --bg-secondary: #1c191d; }\n:root { --bg-tertiary: #211d24; }\n:root { --bg-hover: #211d24; }\n:root { --bg-active: #26222a; }"
+  },
+  {
+    "name": "SugarPlum",
+    "tags": [
+      "light",
+      "cute",
+      "playful"
+    ],
+    "bg1": "#fff9fb",
+    "bg2": "#ffeef5",
+    "bg3": "#ffdce8",
+    "sidebar": "#ffeef5",
+    "accent": "#ff77a8",
+    "accent2": "#ffa3c7",
+    "text": "#6b2e46",
+    "textMid": "#9a4d6c",
+    "textDim": "#c07a96",
+    "online": "#7fd8b4",
+    "input": "#fff9fb",
+    "border": "#ffdce8",
+    "avatarColors": [
+      "#ff77a8",
+      "#ffa3c7",
+      "#ffd1e6"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap');\n\n:root { --font-sans: 'Nunito', system-ui, sans-serif; }\n:root { --font-mono: 'Baloo 2', cursive; }\n\n:root { --background-primary: #fff9fb; }\n:root { --background-secondary: #ffeef5; }\n:root { --background-tertiary: #ffdce8; }\n:root { --background-modifier-hover: #ffe4ef; }\n\n:root { --brand-primary: #ff77a8; }\n:root { --brand-secondary: #ffa3c7; }\n\n:root { --text-primary: #6b2e46; }\n:root { --text-secondary: #9a4d6c; }\n:root { --text-tertiary: #c07a96; }\n\n:root { --border-color: #ffdce8; }\n\n:root { --bg-primary: #fff9fb; }\n:root { --bg-secondary: #ffeef5; }\n:root { --bg-tertiary: #ffe4ef; }\n:root { --bg-hover: #ffe4ef; }\n:root { --bg-active: #ffdce8; }"
+  },
+  {
+    "name": "MonoWave",
+    "tags": [
+      "dark",
+      "modern",
+      "tech"
+    ],
+    "bg1": "#101314",
+    "bg2": "#151a1c",
+    "bg3": "#1d2427",
+    "sidebar": "#151a1c",
+    "accent": "#4fd1c5",
+    "accent2": "#76e4d8",
+    "text": "#e6f1ef",
+    "textMid": "#b7c9c6",
+    "textDim": "#6f8481",
+    "online": "#59d390",
+    "input": "#101314",
+    "border": "#263034",
+    "avatarColors": [
+      "#4fd1c5",
+      "#76e4d8",
+      "#59d390"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');\n\n:root { --font-sans: 'IBM Plex Sans', system-ui, sans-serif; }\n:root { --font-mono: 'IBM Plex Mono', monospace; }\n\n:root { --background-primary: #101314; }\n:root { --background-secondary: #151a1c; }\n:root { --background-tertiary: #1d2427; }\n:root { --background-modifier-hover: #182024; }\n\n:root { --brand-primary: #4fd1c5; }\n:root { --brand-secondary: #76e4d8; }\n\n:root { --text-primary: #e6f1ef; }\n:root { --text-secondary: #b7c9c6; }\n:root { --text-tertiary: #6f8481; }\n\n:root { --border-color: #263034; }\n\n:root { --bg-primary: #101314; }\n:root { --bg-secondary: #151a1c; }\n:root { --bg-tertiary: #182024; }\n:root { --bg-hover: #182024; }\n:root { --bg-active: #1d2427; }"
+  },
+  {
+    "name": "Retro Terminal",
+    "tags": [
+      "dark",
+      "advanced",
+      "retro"
+    ],
+    "bg1": "#000000",
+    "bg2": "#050505",
+    "bg3": "#0a0a0a",
+    "sidebar": "#050505",
+    "accent": "#00ff9c",
+    "accent2": "#00cc7a",
+    "text": "#00ff9c",
+    "textMid": "#00cc7a",
+    "textDim": "#007a4a",
+    "online": "#00ff9c",
+    "input": "#000000",
+    "border": "#003322",
+    "avatarColors": [
+      "#00ff9c",
+      "#00cc7a",
+      "#007a4a"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');\n\n* { font-family: 'VT323', monospace !important; letter-spacing: 1px; }\n\nbody {\n  background: #000 !important;\n  color: #00ff9c !important;\n}\n\n/* CRT Glow */\n* { text-shadow: 0 0 6px rgba(0,255,156,.6); }\n\n/* Scanlines */\nbody::before {\n  content: '';\n  position: fixed;\n  inset: 0;\n  background: repeating-linear-gradient(\n    0deg,\n    rgba(0,0,0,.4) 0px,\n    rgba(0,0,0,.4) 2px,\n    transparent 2px,\n    transparent 4px\n  );\n  pointer-events: none;\n  z-index: 999999;\n}\n\n/* Remove rounded UI */\n*, *::before, *::after { border-radius: 0 !important; }\n\n/* Panels become terminal blocks */\n[class*='container'],\n[class*='wrapper'],\n[class*='content'] {\n  background: #000 !important;\n  border: 1px solid #003322 !important;\n}\n\n/* Hover = phosphor brighten */\n*:hover { color: #00ffcc !important; }\n\n/* Scrollbar */\n::-webkit-scrollbar { width: 10px; }\n::-webkit-scrollbar-thumb { background: #00ff9c; }\n"
+  },
+  {
+    "name": "Cherry Petal",
+    "tags": [
+      "light",
+      "cute",
+      "soft"
+    ],
+    "bg1": "#fff6f8",
+    "bg2": "#fdecef",
+    "bg3": "#f7dfe5",
+    "sidebar": "#fdecef",
+    "accent": "#ff7aa2",
+    "accent2": "#ffb3c7",
+    "text": "#5a2e3b",
+    "textMid": "#7a4a57",
+    "textDim": "#b48a96",
+    "online": "#7ed9a3",
+    "input": "#ffffff",
+    "border": "#f3c9d4",
+    "avatarColors": [
+      "#ff7aa2",
+      "#ffb3c7",
+      "#ffd6e2"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');\n\n:root { --font-sans: 'Comfortaa', system-ui, sans-serif; }\n:root { --background-primary: #fff6f8; }\n:root { --background-secondary: #fdecef; }\n:root { --background-tertiary: #f7dfe5; }\n:root { --brand-primary: #ff7aa2; }\n:root { --text-primary: #5a2e3b; }\n\n/* soft blossom glow */\n[class*='message'] {\n  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,240,244,0.6));\n  border-radius: 14px !important;\n  box-shadow: 0 6px 18px rgba(255,122,162,0.12);\n}\n\n/* dreamy buttons */\nbutton {\n  border-radius: 999px !important;\n  box-shadow: 0 4px 10px rgba(255,122,162,0.25);\n}\n"
+  },
+  {
+    "name": "Midnight Noir",
+    "tags": [
+      "dark",
+      "elegant"
+    ],
+    "bg1": "#141214",
+    "bg2": "#1b181b",
+    "bg3": "#0e0c0f",
+    "sidebar": "#1b181b",
+    "accent": "#d4a5ff",
+    "accent2": "#f1c6ff",
+    "text": "#f5e9ff",
+    "textMid": "#cbb6d9",
+    "textDim": "#7e6f86",
+    "online": "#8ff0c1",
+    "input": "#201c22",
+    "border": "#2b2430",
+    "avatarColors": [
+      "#d4a5ff",
+      "#f1c6ff",
+      "#b392d4"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');\n\n:root { --font-sans: 'Playfair Display', system-ui, serif; }\n:root { --background-primary: #141214; }\n:root { --background-secondary: #1b181b; }\n:root { --background-tertiary: #0e0c0f; }\n:root { --brand-primary: #d4a5ff; }\n:root { --text-primary: #f5e9ff; }\n\n/* velvet depth */\n[class*='container'] {\n  background: radial-gradient(circle at top, rgba(212,165,255,0.08), transparent 60%);\n}\n\n/* glass cards */\n[class*='message'] {\n  background: rgba(255,255,255,0.02);\n  backdrop-filter: blur(6px);\n  border: 1px solid rgba(212,165,255,0.15);\n  border-radius: 10px !important;\n}\n"
+  },
+  {
+    "name": "Lunar Glass",
+    "tags": [
+      "dark",
+      "modern"
+    ],
+    "bg1": "#0c0f14",
+    "bg2": "#12161d",
+    "bg3": "#07090d",
+    "sidebar": "#12161d",
+    "accent": "#7aa2ff",
+    "accent2": "#a8c1ff",
+    "text": "#e6ecff",
+    "textMid": "#aab6d6",
+    "textDim": "#5c6a8a",
+    "online": "#5be4a1",
+    "input": "#151922",
+    "border": "#1f2633",
+    "avatarColors": [
+      "#7aa2ff",
+      "#a8c1ff",
+      "#5be4a1"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');\n\n:root { --font-sans: 'Inter', system-ui, sans-serif; }\n\n/* frosted layout */\n[class*='chat'], [class*='sidebar'] {\n  background: rgba(20,24,32,0.75) !important;\n  backdrop-filter: blur(12px);\n}\n\n/* glow focus */\n:focus {\n  outline: none !important;\n  box-shadow: 0 0 0 2px rgba(122,162,255,0.6);\n}\n"
+  },
+  {
+    "name": "TopBar Minimal",
+    "tags": [
+      "light",
+      "advanced",
+      "layout"
+    ],
+    "bg1": "#f6f7fb",
+    "bg2": "#ffffff",
+    "bg3": "#e9ecf3",
+    "sidebar": "#ffffff",
+    "accent": "#5865f2",
+    "accent2": "#7b86ff",
+    "text": "#2a2e39",
+    "textMid": "#555b6e",
+    "textDim": "#8b90a3",
+    "online": "#3ba55c",
+    "input": "#ffffff",
+    "border": "#dcdfea",
+    "avatarColors": [
+      "#5865f2",
+      "#7b86ff",
+      "#3ba55c"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');\n\n* { font-family: 'Roboto', system-ui, sans-serif !important; }\n\n:root { --guildbar-height: 72px; }\n\n/* Move guilds to top */\n[class*='guildListScrollerWrapper'] {\n  position: fixed !important;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: var(--guildbar-height) !important;\n  width: 100% !important;\n  display: flex !important;\n  flex-direction: row !important;\n  background: #ffffff !important;\n  border-bottom: 1px solid #dcdfea !important;\n  z-index: 1000;\n}\n\n/* Push app below */\n[class*='contentContainer'] {\n  margin-top: var(--guildbar-height) !important;\n}\n\n/* Horizontal scrolling */\n[class*='guildListItems'] {\n  display: flex !important;\n  flex-direction: row !important;\n  overflow-x: auto !important;\n  gap: 10px !important;\n  padding: 10px !important;\n}\n\n/* Clean cards */\n[class*='container'], [class*='wrapper'] {\n  border-radius: 10px !important;\n  box-shadow: 0 4px 14px rgba(0,0,0,.06) !important;\n}\n\n/* Modern hover */\nbutton:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 6px 18px rgba(0,0,0,.12);\n}\n"
+  },
+  {
+    "name": "Dusk Dandelion",
+    "tags": [
+      "light",
+      "elegant",
+      "editorial"
+    ],
+    "bg1": "#f8f4f4",
+    "bg2": "#efe7e7",
+    "bg3": "#e4d6d6",
+    "sidebar": "#efe7e7",
+    "accent": "#b07676",
+    "accent2": "#c48b8b",
+    "text": "#3e2c2c",
+    "textMid": "#6a4a4a",
+    "textDim": "#8a6767",
+    "online": "#7fbf9f",
+    "input": "#f8f4f4",
+    "border": "#e4d6d6",
+    "avatarColors": [
+      "#b07676",
+      "#d6a5a5",
+      "#c48b8b"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap');\n\n:root { --font-sans: 'DM Sans', system-ui, sans-serif; }\n:root { --font-mono: 'Cormorant Garamond', 'Courier New', monospace; }\n\n:root { --background-primary: #f8f4f4; }\n:root { --background-secondary: #efe7e7; }\n:root { --background-secondary-alt: #efe7e7; }\n:root { --background-secondary-lighter: #f8f4f4; }\n:root { --background-tertiary: #e4d6d6; }\n:root { --background-header-primary: #f8f4f4; }\n:root { --background-header-primary-hover: #ece2e2; }\n:root { --background-modifier-hover: #ece2e2; }\n:root { --background-modifier-selected: #e4d6d6; }\n\n:root { --brand-primary: #b07676; }\n:root { --brand-secondary: #c48b8b; }\n\n:root { --text-primary: #3e2c2c; }\n:root { --text-secondary: #6a4a4a; }\n:root { --text-tertiary: #8a6767; }\n\n:root { --border-color: #e4d6d6; }\n\n:root { --bg-primary: #f8f4f4; }\n:root { --bg-secondary: #efe7e7; }\n:root { --bg-tertiary: #ece2e2; }\n:root { --bg-hover: #ece2e2; }\n:root { --bg-active: #e4d6d6; }"
   },
   {
     "name": "Bubblegum Pop",
@@ -711,5 +941,194 @@
       "#487890"
     ],
     "css": ":root { --font-sans: Georgia, 'Times New Roman', serif; }\n:root { --font-mono: Consolas, 'Lucida Console', monospace; }\n:root { --background-primary: #20262a; }\n:root { --background-secondary: #191f22; }\n:root { --background-secondary-alt: #191f22; }\n:root { --background-secondary-lighter: #20262a; }\n:root { --background-tertiary: #121718; }\n:root { --background-textarea: #20262a; }\n:root { --background-header-primary: #20262a; }\n:root { --background-header-primary-hover: #2a3438; }\n:root { --background-header-secondary: #344248; }\n:root { --channel-header-background: #20262a; }\n:root { --background-modifier-hover: #2a3438; }\n:root { --background-modifier-selected: #344248; }\n:root { --background-modifier-accent: #3e5058; }\n:root { --background-modifier-accent-focus: #4e6068; }\n:root { --guild-list-foreground: #98bca8; }\n:root { --brand-primary: #508870; }\n:root { --brand-secondary: #3c7058; }\n:root { --brand-primary-light: #68a086; }\n:root { --brand-primary-fill: #20262a; }\n:root { --status-online: #508870; }\n:root { --status-idle: #a09840; }\n:root { --status-dnd: #a04848; }\n:root { --status-offline: #4e6068; }\n:root { --status-danger: #a04848; }\n:root { --text-primary: #c8d8cc; }\n:root { --text-secondary: #9ab8a4; }\n:root { --text-tertiary: #6e9880; }\n:root { --text-primary-muted: #4e6068; }\n:root { --text-chat: #c8d8cc; }\n:root { --text-chat-muted: #6e9880; }\n:root { --text-link: #68b088; }\n:root { --text-on-brand-primary: #121718; }\n:root { --border-color: #344248; }\n:root { --border-color-hover: #4e6068; }\n:root { --border-color-focus: #508870; }\n:root { --accent-primary: #508870; }\n:root { --accent-success: #508870; }\n:root { --accent-warning: #a09840; }\n:root { --accent-danger: #a04848; }\n:root { --button-primary-fill: #508870; }\n:root { --button-primary-active-fill: #3c7058; }\n:root { --button-primary-text: #f0f8f4; }\n:root { --button-secondary-fill: #344248; }\n:root { --button-secondary-active-fill: #3e5058; }\n:root { --button-secondary-text: #c8d8cc; }\n:root { --button-danger-fill: #a04848; }\n:root { --button-danger-active-fill: #803434; }\n:root { --button-danger-text: #f0f8f4; }\n:root { --bg-primary: #20262a; }\n:root { --bg-secondary: #191f22; }\n:root { --bg-tertiary: #2a3438; }\n:root { --bg-hover: #2a3438; }\n:root { --bg-active: #344248; }\n:root { --bg-code: #2a3438; }\n:root { --bg-code-block: #191f22; }\n:root { --bg-blockquote: #2a3438; }\n:root { --bg-table-header: #344248; }\n:root { --bg-table-row-odd: #20262a; }\n:root { --bg-table-row-even: #222a2e; }"
+  },
+  {
+    "name": "Porcelain",
+    "tags": [
+      "light",
+      "elegant",
+      "minimal",
+      "pastel"
+    ],
+    "bg1": "#f9f5f2",
+    "bg2": "#f2ebe5",
+    "bg3": "#e8ddd6",
+    "sidebar": "#f2ebe5",
+    "accent": "#c47e6a",
+    "accent2": "#9d7acc",
+    "text": "#2d1f1a",
+    "textMid": "#6b5148",
+    "textDim": "#b8a09a",
+    "online": "#5cad7a",
+    "input": "#f0e8e1",
+    "border": "#e0d4cc",
+    "avatarColors": [
+      "#c47e6a",
+      "#9d7acc",
+      "#5cad7a"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono&display=swap');\n\n:root { --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif; }\n:root { --font-mono: 'DM Mono', 'Fira Code', monospace; }\n:root { --background-primary: #f9f5f2; }\n:root { --background-secondary: #f2ebe5; }\n:root { --background-secondary-alt: #efe8e1; }\n:root { --background-secondary-lighter: #f9f5f2; }\n:root { --background-tertiary: #e8ddd6; }\n:root { --background-textarea: #f9f5f2; }\n:root { --background-header-primary: #f9f5f2; }\n:root { --background-header-primary-hover: #f0e8e1; }\n:root { --background-header-secondary: #e8ddd6; }\n:root { --channel-header-background: #f9f5f2; }\n:root { --background-modifier-hover: #f0e8e1; }\n:root { --background-modifier-selected: #e8ddd6; }\n:root { --background-modifier-accent: #e0d4cc; }\n:root { --background-modifier-accent-focus: #c8b4a8; }\n:root { --guild-list-foreground: #3d2e26; }\n:root { --brand-primary: #c47e6a; }\n:root { --brand-secondary: #a86655; }\n:root { --brand-primary-light: #d49585; }\n:root { --brand-primary-fill: #ffffff; }\n:root { --status-online: #5cad7a; }\n:root { --status-idle: #c9954a; }\n:root { --status-dnd: #c4574a; }\n:root { --status-offline: #b0a09a; }\n:root { --status-danger: #c4574a; }\n:root { --text-primary: #2d1f1a; }\n:root { --text-secondary: #6b5148; }\n:root { --text-tertiary: #9b8078; }\n:root { --text-primary-muted: #b8a09a; }\n:root { --text-chat: #2d1f1a; }\n:root { --text-chat-muted: #9b8078; }\n:root { --text-link: #7a7acc; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --text-tertiary-muted: #b8a09a; }\n:root { --text-tertiary-secondary: #a08880; }\n:root { --border-color: #e0d4cc; }\n:root { --border-color-hover: #c8b4a8; }\n:root { --border-color-focus: #c47e6a; }\n:root { --accent-primary: #c47e6a; }\n:root { --accent-success: #5cad7a; }\n:root { --accent-warning: #c9954a; }\n:root { --accent-danger: #c4574a; }\n:root { --accent-info: #7a7acc; }\n:root { --accent-purple: #9d7acc; }\n:root { --alert-note-color: #7a7acc; }\n:root { --alert-tip-color: #5cad7a; }\n:root { --alert-important-color: #9d7acc; }\n:root { --alert-warning-color: #c9954a; }\n:root { --alert-caution-color: #c4574a; }\n:root { --markup-mention-text: #c47e6a; }\n:root { --markup-mention-fill: #f5e8e3; }\n:root { --markup-interactive-hover-text: #a86655; }\n:root { --markup-interactive-hover-fill: #f0e8e1; }\n:root { --button-primary-fill: #c47e6a; }\n:root { --button-primary-active-fill: #a86655; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #e8ddd6; }\n:root { --button-secondary-active-fill: #e0d4cc; }\n:root { --button-secondary-text: #2d1f1a; }\n:root { --button-danger-fill: #c4574a; }\n:root { --button-danger-active-fill: #a84038; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #c4574a; }\n:root { --button-danger-outline-text: #c4574a; }\n:root { --button-danger-outline-active-fill: #f5e0de; }\n:root { --button-danger-outline-active-border: #a84038; }\n:root { --button-ghost-text: #2d1f1a; }\n:root { --button-inverted-fill: #2d1f1a; }\n:root { --button-inverted-text: #f9f5f2; }\n:root { --button-outline-border: #e0d4cc; }\n:root { --button-outline-text: #2d1f1a; }\n:root { --button-outline-active-fill: #f0e8e1; }\n:root { --button-outline-active-border: #c8b4a8; }\n:root { --bg-primary: #f9f5f2; }\n:root { --bg-secondary: #f2ebe5; }\n:root { --bg-tertiary: #e8ddd6; }\n:root { --bg-hover: #f0e8e1; }\n:root { --bg-active: #e0d4cc; }\n:root { --bg-code: #f0e8e1; }\n:root { --bg-code-block: #ece5df; }\n:root { --bg-blockquote: #f0e8e1; }\n:root { --bg-table-header: #e8ddd6; }\n:root { --bg-table-row-odd: #f9f5f2; }\n:root { --bg-table-row-even: #f5f0ec; }\n\n/* Porcelain — soft borders, warm paper feel */\n* { letter-spacing: 0.01em; }\n:root [class*='channelName'], :root [class*='category'] { font-weight: 500; letter-spacing: 0.04em; }"
+  },
+  {
+    "name": "Abyss",
+    "tags": [
+      "dark",
+      "elegant",
+      "navy",
+      "blue"
+    ],
+    "bg1": "#0b0e17",
+    "bg2": "#070a12",
+    "bg3": "#04060d",
+    "sidebar": "#070a12",
+    "accent": "#7eb8f7",
+    "accent2": "#b08af5",
+    "text": "#c8d8f0",
+    "textMid": "#8aa0c8",
+    "textDim": "#3a4a6a",
+    "online": "#57d4a0",
+    "input": "#131826",
+    "border": "#1a2540",
+    "avatarColors": [
+      "#7eb8f7",
+      "#b08af5",
+      "#57d4a0"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');\n\n:root { --font-sans: 'Sora', system-ui, -apple-system, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', monospace; }\n:root { --background-primary: #0b0e17; }\n:root { --background-secondary: #070a12; }\n:root { --background-secondary-alt: #070a12; }\n:root { --background-secondary-lighter: #0e1120; }\n:root { --background-tertiary: #04060d; }\n:root { --background-textarea: #0b0e17; }\n:root { --background-header-primary: #0b0e17; }\n:root { --background-header-primary-hover: #131826; }\n:root { --background-header-secondary: #131826; }\n:root { --channel-header-background: #0b0e17; }\n:root { --background-modifier-hover: #131826; }\n:root { --background-modifier-selected: #1a2035; }\n:root { --background-modifier-accent: #1a2035; }\n:root { --background-modifier-accent-focus: #2a3555; }\n:root { --guild-list-foreground: #c8d8f0; }\n:root { --brand-primary: #7eb8f7; }\n:root { --brand-secondary: #5a9de8; }\n:root { --brand-primary-light: #a8cffb; }\n:root { --brand-primary-fill: #0b0e17; }\n:root { --status-online: #57d4a0; }\n:root { --status-idle: #f7c948; }\n:root { --status-dnd: #f06b6b; }\n:root { --status-offline: #3a4a6a; }\n:root { --status-danger: #f06b6b; }\n:root { --text-primary: #c8d8f0; }\n:root { --text-secondary: #8aa0c8; }\n:root { --text-tertiary: #5a7098; }\n:root { --text-primary-muted: #2e3f60; }\n:root { --text-chat: #c8d8f0; }\n:root { --text-chat-muted: #6a88b0; }\n:root { --text-link: #7eb8f7; }\n:root { --text-on-brand-primary: #04060d; }\n:root { --text-tertiary-muted: #2e3f60; }\n:root { --text-tertiary-secondary: #4a6080; }\n:root { --border-color: #1a2540; }\n:root { --border-color-hover: #2e4070; }\n:root { --border-color-focus: #7eb8f7; }\n:root { --accent-primary: #7eb8f7; }\n:root { --accent-success: #57d4a0; }\n:root { --accent-warning: #f7c948; }\n:root { --accent-danger: #f06b6b; }\n:root { --accent-info: #7eb8f7; }\n:root { --accent-purple: #b08af5; }\n:root { --alert-note-color: #7eb8f7; }\n:root { --alert-tip-color: #57d4a0; }\n:root { --alert-important-color: #b08af5; }\n:root { --alert-warning-color: #f7c948; }\n:root { --alert-caution-color: #f06b6b; }\n:root { --markup-mention-text: #7eb8f7; }\n:root { --markup-mention-fill: #0d1a30; }\n:root { --markup-interactive-hover-text: #a8cffb; }\n:root { --markup-interactive-hover-fill: #131826; }\n:root { --button-primary-fill: #7eb8f7; }\n:root { --button-primary-active-fill: #5a9de8; }\n:root { --button-primary-text: #04060d; }\n:root { --button-secondary-fill: #131826; }\n:root { --button-secondary-active-fill: #1a2035; }\n:root { --button-secondary-text: #c8d8f0; }\n:root { --button-danger-fill: #f06b6b; }\n:root { --button-danger-active-fill: #d04545; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #f06b6b; }\n:root { --button-danger-outline-text: #f06b6b; }\n:root { --button-danger-outline-active-fill: #1a0d0d; }\n:root { --button-danger-outline-active-border: #d04545; }\n:root { --button-ghost-text: #c8d8f0; }\n:root { --button-inverted-fill: #c8d8f0; }\n:root { --button-inverted-text: #04060d; }\n:root { --button-outline-border: #1a2540; }\n:root { --button-outline-text: #c8d8f0; }\n:root { --button-outline-active-fill: #131826; }\n:root { --button-outline-active-border: #2e4070; }\n:root { --bg-primary: #0b0e17; }\n:root { --bg-secondary: #070a12; }\n:root { --bg-tertiary: #131826; }\n:root { --bg-hover: #131826; }\n:root { --bg-active: #1a2035; }\n:root { --bg-code: #0d1120; }\n:root { --bg-code-block: #070a12; }\n:root { --bg-blockquote: #0e1320; }\n:root { --bg-table-header: #131826; }\n:root { --bg-table-row-odd: #0b0e17; }\n:root { --bg-table-row-even: #0d1020; }\n\n/* Abyss — deep navy, luminous accents */\n* { letter-spacing: 0.015em; }"
+  },
+  {
+    "name": "Matcha",
+    "tags": [
+      "dark",
+      "green",
+      "cozy",
+      "nature"
+    ],
+    "bg1": "#1a2218",
+    "bg2": "#141c12",
+    "bg3": "#0f1710",
+    "sidebar": "#141c12",
+    "accent": "#88c070",
+    "accent2": "#b09ad4",
+    "text": "#d4e8cc",
+    "textMid": "#9ec48e",
+    "textDim": "#4a5e44",
+    "online": "#88c070",
+    "input": "#253024",
+    "border": "#2e3c2a",
+    "avatarColors": [
+      "#88c070",
+      "#d4b86a",
+      "#70a8c8"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');\n\n:root { --font-sans: 'Nunito', system-ui, sans-serif; }\n:root { --font-mono: 'Fira Code', 'JetBrains Mono', monospace; }\n:root { --background-primary: #1a2218; }\n:root { --background-secondary: #141c12; }\n:root { --background-secondary-alt: #141c12; }\n:root { --background-secondary-lighter: #1e2820; }\n:root { --background-tertiary: #0f1710; }\n:root { --background-textarea: #1a2218; }\n:root { --background-header-primary: #1a2218; }\n:root { --background-header-primary-hover: #253024; }\n:root { --background-header-secondary: #253024; }\n:root { --channel-header-background: #1a2218; }\n:root { --background-modifier-hover: #253024; }\n:root { --background-modifier-selected: #2e3c2a; }\n:root { --background-modifier-accent: #2e3c2a; }\n:root { --background-modifier-accent-focus: #4a5e44; }\n:root { --guild-list-foreground: #d4e8cc; }\n:root { --brand-primary: #88c070; }\n:root { --brand-secondary: #6aaa52; }\n:root { --brand-primary-light: #a8d898; }\n:root { --brand-primary-fill: #141c12; }\n:root { --status-online: #88c070; }\n:root { --status-idle: #d4b86a; }\n:root { --status-dnd: #d46a6a; }\n:root { --status-offline: #4a5e44; }\n:root { --status-danger: #d46a6a; }\n:root { --text-primary: #d4e8cc; }\n:root { --text-secondary: #9ec48e; }\n:root { --text-tertiary: #6e9060; }\n:root { --text-primary-muted: #3e5038; }\n:root { --text-chat: #d4e8cc; }\n:root { --text-chat-muted: #7aaa6a; }\n:root { --text-link: #88c070; }\n:root { --text-on-brand-primary: #0f1710; }\n:root { --text-tertiary-muted: #3e5038; }\n:root { --text-tertiary-secondary: #5a7450; }\n:root { --border-color: #2e3c2a; }\n:root { --border-color-hover: #4a5e44; }\n:root { --border-color-focus: #88c070; }\n:root { --accent-primary: #88c070; }\n:root { --accent-success: #88c070; }\n:root { --accent-warning: #d4b86a; }\n:root { --accent-danger: #d46a6a; }\n:root { --accent-info: #70a8c8; }\n:root { --accent-purple: #b09ad4; }\n:root { --alert-note-color: #70a8c8; }\n:root { --alert-tip-color: #88c070; }\n:root { --alert-important-color: #b09ad4; }\n:root { --alert-warning-color: #d4b86a; }\n:root { --alert-caution-color: #d46a6a; }\n:root { --markup-mention-text: #88c070; }\n:root { --markup-mention-fill: #1e301a; }\n:root { --markup-interactive-hover-text: #a8d898; }\n:root { --markup-interactive-hover-fill: #253024; }\n:root { --button-primary-fill: #88c070; }\n:root { --button-primary-active-fill: #6aaa52; }\n:root { --button-primary-text: #0f1710; }\n:root { --button-secondary-fill: #253024; }\n:root { --button-secondary-active-fill: #2e3c2a; }\n:root { --button-secondary-text: #d4e8cc; }\n:root { --button-danger-fill: #d46a6a; }\n:root { --button-danger-active-fill: #b84848; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #d46a6a; }\n:root { --button-danger-outline-text: #d46a6a; }\n:root { --button-danger-outline-active-fill: #2a1818; }\n:root { --button-danger-outline-active-border: #b84848; }\n:root { --button-ghost-text: #d4e8cc; }\n:root { --button-inverted-fill: #d4e8cc; }\n:root { --button-inverted-text: #0f1710; }\n:root { --button-outline-border: #2e3c2a; }\n:root { --button-outline-text: #d4e8cc; }\n:root { --button-outline-active-fill: #253024; }\n:root { --button-outline-active-border: #4a5e44; }\n:root { --bg-primary: #1a2218; }\n:root { --bg-secondary: #141c12; }\n:root { --bg-tertiary: #253024; }\n:root { --bg-hover: #253024; }\n:root { --bg-active: #2e3c2a; }\n:root { --bg-code: #1e2a1c; }\n:root { --bg-code-block: #141c12; }\n:root { --bg-blockquote: #1e2a1c; }\n:root { --bg-table-header: #253024; }\n:root { --bg-table-row-odd: #1a2218; }\n:root { --bg-table-row-even: #1c2a1a; }\n\n/* Matcha — earthy greens, warm cozy feel */\n* { font-weight: 400; }\n:root [class*='username'] { font-weight: 600; }"
+  },
+  {
+    "name": "Ivory Noir",
+    "tags": [
+      "dark",
+      "elegant",
+      "gold",
+      "warm"
+    ],
+    "bg1": "#131009",
+    "bg2": "#0d0b06",
+    "bg3": "#090703",
+    "sidebar": "#0d0b06",
+    "accent": "#d4a84a",
+    "accent2": "#b090d8",
+    "text": "#f0e8d0",
+    "textMid": "#c8b880",
+    "textDim": "#4a4030",
+    "online": "#7ab870",
+    "input": "#1e1a11",
+    "border": "#2a2418",
+    "avatarColors": [
+      "#d4a84a",
+      "#b090d8",
+      "#7ab870"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');\n\n:root { --font-sans: 'Outfit', system-ui, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', monospace; }\n:root { --background-primary: #131009; }\n:root { --background-secondary: #0d0b06; }\n:root { --background-secondary-alt: #0d0b06; }\n:root { --background-secondary-lighter: #171410; }\n:root { --background-tertiary: #090703; }\n:root { --background-textarea: #131009; }\n:root { --background-header-primary: #131009; }\n:root { --background-header-primary-hover: #1e1a11; }\n:root { --background-header-secondary: #1e1a11; }\n:root { --channel-header-background: #131009; }\n:root { --background-modifier-hover: #1e1a11; }\n:root { --background-modifier-selected: #2a2418; }\n:root { --background-modifier-accent: #2a2418; }\n:root { --background-modifier-accent-focus: #403828; }\n:root { --guild-list-foreground: #f0e8d0; }\n:root { --brand-primary: #d4a84a; }\n:root { --brand-secondary: #c09030; }\n:root { --brand-primary-light: #e8c878; }\n:root { --brand-primary-fill: #090703; }\n:root { --status-online: #7ab870; }\n:root { --status-idle: #d4a84a; }\n:root { --status-dnd: #d46868; }\n:root { --status-offline: #4a4030; }\n:root { --status-danger: #d46868; }\n:root { --text-primary: #f0e8d0; }\n:root { --text-secondary: #c8b880; }\n:root { --text-tertiary: #907848; }\n:root { --text-primary-muted: #503d20; }\n:root { --text-chat: #f0e8d0; }\n:root { --text-chat-muted: #a89058; }\n:root { --text-link: #d4a84a; }\n:root { --text-on-brand-primary: #090703; }\n:root { --text-tertiary-muted: #503d20; }\n:root { --text-tertiary-secondary: #786040; }\n:root { --border-color: #2a2418; }\n:root { --border-color-hover: #403828; }\n:root { --border-color-focus: #d4a84a; }\n:root { --accent-primary: #d4a84a; }\n:root { --accent-success: #7ab870; }\n:root { --accent-warning: #d4a84a; }\n:root { --accent-danger: #d46868; }\n:root { --accent-info: #70a0d8; }\n:root { --accent-purple: #b090d8; }\n:root { --alert-note-color: #70a0d8; }\n:root { --alert-tip-color: #7ab870; }\n:root { --alert-important-color: #b090d8; }\n:root { --alert-warning-color: #d4a84a; }\n:root { --alert-caution-color: #d46868; }\n:root { --markup-mention-text: #d4a84a; }\n:root { --markup-mention-fill: #2a1e08; }\n:root { --markup-interactive-hover-text: #e8c878; }\n:root { --markup-interactive-hover-fill: #1e1a11; }\n:root { --button-primary-fill: #d4a84a; }\n:root { --button-primary-active-fill: #c09030; }\n:root { --button-primary-text: #090703; }\n:root { --button-secondary-fill: #1e1a11; }\n:root { --button-secondary-active-fill: #2a2418; }\n:root { --button-secondary-text: #f0e8d0; }\n:root { --button-danger-fill: #d46868; }\n:root { --button-danger-active-fill: #b84848; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #d46868; }\n:root { --button-danger-outline-text: #d46868; }\n:root { --button-danger-outline-active-fill: #2a1010; }\n:root { --button-danger-outline-active-border: #b84848; }\n:root { --button-ghost-text: #f0e8d0; }\n:root { --button-inverted-fill: #f0e8d0; }\n:root { --button-inverted-text: #090703; }\n:root { --button-outline-border: #2a2418; }\n:root { --button-outline-text: #f0e8d0; }\n:root { --button-outline-active-fill: #1e1a11; }\n:root { --button-outline-active-border: #403828; }\n:root { --bg-primary: #131009; }\n:root { --bg-secondary: #0d0b06; }\n:root { --bg-tertiary: #1e1a11; }\n:root { --bg-hover: #1e1a11; }\n:root { --bg-active: #2a2418; }\n:root { --bg-code: #18150c; }\n:root { --bg-code-block: #0d0b06; }\n:root { --bg-blockquote: #18150c; }\n:root { --bg-table-header: #1e1a11; }\n:root { --bg-table-row-odd: #131009; }\n:root { --bg-table-row-even: #161209; }\n\n/* Ivory Noir — warm ink, burnished gold */\n* { letter-spacing: 0.02em; }"
+  },
+  {
+    "name": "Stellar",
+    "tags": [
+      "dark",
+      "purple",
+      "elegant",
+      "vibrant"
+    ],
+    "bg1": "#100e1a",
+    "bg2": "#0c0a14",
+    "bg3": "#08060f",
+    "sidebar": "#0c0a14",
+    "accent": "#a070f8",
+    "accent2": "#e068c8",
+    "text": "#e0d8f8",
+    "textMid": "#a898d8",
+    "textDim": "#402e60",
+    "online": "#68d8a0",
+    "input": "#1a1728",
+    "border": "#241f38",
+    "avatarColors": [
+      "#a070f8",
+      "#e068c8",
+      "#68d8a0"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap');\n\n:root { --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }\n:root { --font-mono: 'Fira Code', 'JetBrains Mono', monospace; }\n:root { --background-primary: #100e1a; }\n:root { --background-secondary: #0c0a14; }\n:root { --background-secondary-alt: #0c0a14; }\n:root { --background-secondary-lighter: #141020; }\n:root { --background-tertiary: #08060f; }\n:root { --background-textarea: #100e1a; }\n:root { --background-header-primary: #100e1a; }\n:root { --background-header-primary-hover: #1a1728; }\n:root { --background-header-secondary: #1a1728; }\n:root { --channel-header-background: #100e1a; }\n:root { --background-modifier-hover: #1a1728; }\n:root { --background-modifier-selected: #241f38; }\n:root { --background-modifier-accent: #241f38; }\n:root { --background-modifier-accent-focus: #352e50; }\n:root { --guild-list-foreground: #e0d8f8; }\n:root { --brand-primary: #a070f8; }\n:root { --brand-secondary: #8050e8; }\n:root { --brand-primary-light: #c098ff; }\n:root { --brand-primary-fill: #08060f; }\n:root { --status-online: #68d8a0; }\n:root { --status-idle: #e8c860; }\n:root { --status-dnd: #e87880; }\n:root { --status-offline: #402e60; }\n:root { --status-danger: #e87880; }\n:root { --text-primary: #e0d8f8; }\n:root { --text-secondary: #a898d8; }\n:root { --text-tertiary: #7060a8; }\n:root { --text-primary-muted: #382e58; }\n:root { --text-chat: #e0d8f8; }\n:root { --text-chat-muted: #8878b8; }\n:root { --text-link: #a070f8; }\n:root { --text-on-brand-primary: #08060f; }\n:root { --text-tertiary-muted: #382e58; }\n:root { --text-tertiary-secondary: #584878; }\n:root { --border-color: #241f38; }\n:root { --border-color-hover: #352e50; }\n:root { --border-color-focus: #a070f8; }\n:root { --accent-primary: #a070f8; }\n:root { --accent-success: #68d8a0; }\n:root { --accent-warning: #e8c860; }\n:root { --accent-danger: #e87880; }\n:root { --accent-info: #68b8f0; }\n:root { --accent-purple: #e068c8; }\n:root { --alert-note-color: #68b8f0; }\n:root { --alert-tip-color: #68d8a0; }\n:root { --alert-important-color: #e068c8; }\n:root { --alert-warning-color: #e8c860; }\n:root { --alert-caution-color: #e87880; }\n:root { --markup-mention-text: #c098ff; }\n:root { --markup-mention-fill: #1a1030; }\n:root { --markup-interactive-hover-text: #c098ff; }\n:root { --markup-interactive-hover-fill: #1a1728; }\n:root { --button-primary-fill: #a070f8; }\n:root { --button-primary-active-fill: #8050e8; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #1a1728; }\n:root { --button-secondary-active-fill: #241f38; }\n:root { --button-secondary-text: #e0d8f8; }\n:root { --button-danger-fill: #e87880; }\n:root { --button-danger-active-fill: #c85060; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #e87880; }\n:root { --button-danger-outline-text: #e87880; }\n:root { --button-danger-outline-active-fill: #200c14; }\n:root { --button-danger-outline-active-border: #c85060; }\n:root { --button-ghost-text: #e0d8f8; }\n:root { --button-inverted-fill: #e0d8f8; }\n:root { --button-inverted-text: #08060f; }\n:root { --button-outline-border: #241f38; }\n:root { --button-outline-text: #e0d8f8; }\n:root { --button-outline-active-fill: #1a1728; }\n:root { --button-outline-active-border: #352e50; }\n:root { --bg-primary: #100e1a; }\n:root { --bg-secondary: #0c0a14; }\n:root { --bg-tertiary: #1a1728; }\n:root { --bg-hover: #1a1728; }\n:root { --bg-active: #241f38; }\n:root { --bg-code: #14101e; }\n:root { --bg-code-block: #0c0a14; }\n:root { --bg-blockquote: #14101e; }\n:root { --bg-table-header: #1a1728; }\n:root { --bg-table-row-odd: #100e1a; }\n:root { --bg-table-row-even: #12101c; }\n\n/* Stellar — violet cosmos, luminous purple */\n* { letter-spacing: 0.01em; }"
+  },
+  {
+    "name": "Petal",
+    "tags": [
+      "light",
+      "pink",
+      "cute",
+      "pastel"
+    ],
+    "bg1": "#fff5f7",
+    "bg2": "#ffe8ee",
+    "bg3": "#f8d8e4",
+    "sidebar": "#ffe8ee",
+    "accent": "#e87090",
+    "accent2": "#c08ae0",
+    "text": "#4a2030",
+    "textMid": "#906070",
+    "textDim": "#d0a0b0",
+    "online": "#70c88a",
+    "input": "#fce0e8",
+    "border": "#f5c8d8",
+    "avatarColors": [
+      "#e87090",
+      "#c08ae0",
+      "#70c88a"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');\n\n:root { --font-sans: 'Quicksand', system-ui, sans-serif; }\n:root { --font-mono: 'Fira Code', monospace; }\n:root { --background-primary: #fff5f7; }\n:root { --background-secondary: #ffe8ee; }\n:root { --background-secondary-alt: #fce0e8; }\n:root { --background-secondary-lighter: #fff5f7; }\n:root { --background-tertiary: #f8d8e4; }\n:root { --background-textarea: #fff5f7; }\n:root { --background-header-primary: #fff5f7; }\n:root { --background-header-primary-hover: #fce0e8; }\n:root { --background-header-secondary: #f8d8e4; }\n:root { --channel-header-background: #fff5f7; }\n:root { --background-modifier-hover: #fce0e8; }\n:root { --background-modifier-selected: #f8d0dc; }\n:root { --background-modifier-accent: #f5c8d8; }\n:root { --background-modifier-accent-focus: #e8a8c0; }\n:root { --guild-list-foreground: #5a2035; }\n:root { --brand-primary: #e87090; }\n:root { --brand-secondary: #d05070; }\n:root { --brand-primary-light: #f098b0; }\n:root { --brand-primary-fill: #ffffff; }\n:root { --status-online: #70c88a; }\n:root { --status-idle: #d8a040; }\n:root { --status-dnd: #e05060; }\n:root { --status-offline: #d0a0b0; }\n:root { --status-danger: #e05060; }\n:root { --text-primary: #4a2030; }\n:root { --text-secondary: #906070; }\n:root { --text-tertiary: #c090a0; }\n:root { --text-primary-muted: #e0c0ca; }\n:root { --text-chat: #4a2030; }\n:root { --text-chat-muted: #a07888; }\n:root { --text-link: #a060c8; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --text-tertiary-muted: #e0c0ca; }\n:root { --text-tertiary-secondary: #c0909a; }\n:root { --border-color: #f5c8d8; }\n:root { --border-color-hover: #e8a8c0; }\n:root { --border-color-focus: #e87090; }\n:root { --accent-primary: #e87090; }\n:root { --accent-success: #70c88a; }\n:root { --accent-warning: #d8a040; }\n:root { --accent-danger: #e05060; }\n:root { --accent-info: #78a8e0; }\n:root { --accent-purple: #c08ae0; }\n:root { --alert-note-color: #78a8e0; }\n:root { --alert-tip-color: #70c88a; }\n:root { --alert-important-color: #c08ae0; }\n:root { --alert-warning-color: #d8a040; }\n:root { --alert-caution-color: #e05060; }\n:root { --markup-mention-text: #d05070; }\n:root { --markup-mention-fill: #fce0e8; }\n:root { --markup-interactive-hover-text: #c03058; }\n:root { --markup-interactive-hover-fill: #fce0e8; }\n:root { --button-primary-fill: #e87090; }\n:root { --button-primary-active-fill: #d05070; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #f8d0dc; }\n:root { --button-secondary-active-fill: #f5c8d8; }\n:root { --button-secondary-text: #4a2030; }\n:root { --button-danger-fill: #e05060; }\n:root { --button-danger-active-fill: #c03048; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #e05060; }\n:root { --button-danger-outline-text: #e05060; }\n:root { --button-danger-outline-active-fill: #fce0e8; }\n:root { --button-danger-outline-active-border: #c03048; }\n:root { --button-ghost-text: #4a2030; }\n:root { --button-inverted-fill: #4a2030; }\n:root { --button-inverted-text: #fff5f7; }\n:root { --button-outline-border: #f5c8d8; }\n:root { --button-outline-text: #4a2030; }\n:root { --button-outline-active-fill: #fce0e8; }\n:root { --button-outline-active-border: #e8a8c0; }\n:root { --bg-primary: #fff5f7; }\n:root { --bg-secondary: #ffe8ee; }\n:root { --bg-tertiary: #f8d0dc; }\n:root { --bg-hover: #fce0e8; }\n:root { --bg-active: #f5c8d8; }\n:root { --bg-code: #fce8f0; }\n:root { --bg-code-block: #f8d8e8; }\n:root { --bg-blockquote: #fce8f0; }\n:root { --bg-table-header: #f8d0dc; }\n:root { --bg-table-row-odd: #fff5f7; }\n:root { --bg-table-row-even: #fdf0f3; }\n\n/* Petal — soft pink, sweet and clean */\n* { font-weight: 500; letter-spacing: 0.02em; }\n:root [class*='username'] { font-weight: 700; }"
+  },
+  {
+    "name": "Slate Storm",
+    "tags": [
+      "dark",
+      "blue",
+      "minimal",
+      "professional"
+    ],
+    "bg1": "#151b26",
+    "bg2": "#0f1420",
+    "bg3": "#0a0f18",
+    "sidebar": "#0f1420",
+    "accent": "#4e8fff",
+    "accent2": "#9870f0",
+    "text": "#dce6f4",
+    "textMid": "#94a8c4",
+    "textDim": "#3a4a60",
+    "online": "#4acc88",
+    "input": "#1e2738",
+    "border": "#1e2a3f",
+    "avatarColors": [
+      "#4e8fff",
+      "#9870f0",
+      "#4acc88"
+    ],
+    "css": "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');\n\n:root { --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif; }\n:root { --font-mono: 'JetBrains Mono', 'Fira Code', monospace; }\n:root { --background-primary: #151b26; }\n:root { --background-secondary: #0f1420; }\n:root { --background-secondary-alt: #0f1420; }\n:root { --background-secondary-lighter: #1a2030; }\n:root { --background-tertiary: #0a0f18; }\n:root { --background-textarea: #151b26; }\n:root { --background-header-primary: #151b26; }\n:root { --background-header-primary-hover: #1e2738; }\n:root { --background-header-secondary: #1e2738; }\n:root { --channel-header-background: #151b26; }\n:root { --background-modifier-hover: #1e2738; }\n:root { --background-modifier-selected: #283348; }\n:root { --background-modifier-accent: #283348; }\n:root { --background-modifier-accent-focus: #384860; }\n:root { --guild-list-foreground: #dce6f4; }\n:root { --brand-primary: #4e8fff; }\n:root { --brand-secondary: #2e70f0; }\n:root { --brand-primary-light: #7aaeff; }\n:root { --brand-primary-fill: #0a0f18; }\n:root { --status-online: #4acc88; }\n:root { --status-idle: #e8c058; }\n:root { --status-dnd: #e86868; }\n:root { --status-offline: #3a4a60; }\n:root { --status-danger: #e86868; }\n:root { --text-primary: #dce6f4; }\n:root { --text-secondary: #94a8c4; }\n:root { --text-tertiary: #6278a0; }\n:root { --text-primary-muted: #304058; }\n:root { --text-chat: #dce6f4; }\n:root { --text-chat-muted: #7890b0; }\n:root { --text-link: #4e8fff; }\n:root { --text-on-brand-primary: #ffffff; }\n:root { --text-tertiary-muted: #304058; }\n:root { --text-tertiary-secondary: #4a6080; }\n:root { --border-color: #1e2a3f; }\n:root { --border-color-hover: #2e4060; }\n:root { --border-color-focus: #4e8fff; }\n:root { --accent-primary: #4e8fff; }\n:root { --accent-success: #4acc88; }\n:root { --accent-warning: #e8c058; }\n:root { --accent-danger: #e86868; }\n:root { --accent-info: #4ec8ff; }\n:root { --accent-purple: #9870f0; }\n:root { --alert-note-color: #4ec8ff; }\n:root { --alert-tip-color: #4acc88; }\n:root { --alert-important-color: #9870f0; }\n:root { --alert-warning-color: #e8c058; }\n:root { --alert-caution-color: #e86868; }\n:root { --markup-mention-text: #4e8fff; }\n:root { --markup-mention-fill: #0e1c38; }\n:root { --markup-interactive-hover-text: #7aaeff; }\n:root { --markup-interactive-hover-fill: #1e2738; }\n:root { --button-primary-fill: #4e8fff; }\n:root { --button-primary-active-fill: #2e70f0; }\n:root { --button-primary-text: #ffffff; }\n:root { --button-secondary-fill: #1e2738; }\n:root { --button-secondary-active-fill: #283348; }\n:root { --button-secondary-text: #dce6f4; }\n:root { --button-danger-fill: #e86868; }\n:root { --button-danger-active-fill: #c04848; }\n:root { --button-danger-text: #ffffff; }\n:root { --button-danger-outline-border: #e86868; }\n:root { --button-danger-outline-text: #e86868; }\n:root { --button-danger-outline-active-fill: #1e1020; }\n:root { --button-danger-outline-active-border: #c04848; }\n:root { --button-ghost-text: #dce6f4; }\n:root { --button-inverted-fill: #dce6f4; }\n:root { --button-inverted-text: #0a0f18; }\n:root { --button-outline-border: #1e2a3f; }\n:root { --button-outline-text: #dce6f4; }\n:root { --button-outline-active-fill: #1e2738; }\n:root { --button-outline-active-border: #2e4060; }\n:root { --bg-primary: #151b26; }\n:root { --bg-secondary: #0f1420; }\n:root { --bg-tertiary: #1e2738; }\n:root { --bg-hover: #1e2738; }\n:root { --bg-active: #283348; }\n:root { --bg-code: #141e2e; }\n:root { --bg-code-block: #0f1420; }\n:root { --bg-blockquote: #141e2e; }\n:root { --bg-table-header: #1e2738; }\n:root { --bg-table-row-odd: #151b26; }\n:root { --bg-table-row-even: #171d2a; }\n\n/* Slate Storm — professional blue-gray, crisp */\n* { font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; }"
   }
 ]
