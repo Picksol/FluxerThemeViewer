@@ -39,7 +39,7 @@ async function init() {
     errEl.innerHTML = `
       <strong>Couldn't load themes.json</strong><br>
       <span style="color:#9090b0;font-size:13px;margin-top:8px;display:block;">
-        Make sure <code>../res/themes.json</code> exists relative to <code>html/site.html</code>.<br>
+        Make sure <code>./res/themes.json</code> exists relative to <code>./site.html</code>.<br>
         If you're opening the file directly (file://), try a local server or GitHub Pages.<br><br>
         Error: ${err.message}
       </span>
