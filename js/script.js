@@ -14,7 +14,7 @@ let allTags = new Set();
 async function init() {
   try {
     // Path relative to site.html location: ../res/themes.json
-    const res = await fetch('../res/themes.json');
+    const res = await fetch('./res/themes.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     themes = await res.json();
 
